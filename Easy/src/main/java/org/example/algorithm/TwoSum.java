@@ -12,18 +12,18 @@ public class TwoSum {
     // Если нет - то верните пустой список 
     private static List<Integer> twoSum(List<Integer> arr, int targetSum) {
         HashSet<Integer> array = new HashSet<>(arr);
-        HashSet<Integer> lookingForNumbersSet;
-        List<Integer> lookingForNumbers = arr.stream().map(i -> targetSum - i).collect(Collectors.toList());
-        lookingForNumbersSet = new HashSet<>(lookingForNumbers);
-        System.out.println(arr);
-        System.out.println(lookingForNumbersSet);
-        for(Integer i : arr) {
-            if(lookingForNumbersSet.contains(targetSum - i)) {
+        List<Integer> lookingForNumbers = array.stream().map(i -> targetSum - i).collect(Collectors.toList());
+        HashSet<Integer> lookingForNumbersSet = new HashSet<>(lookingForNumbers);
+        lookingForNumbersSet.retainAll(array);
+        for (Integer i : arr) {
+            lookingForNumbersSet.remove(i);
+            if (lookingForNumbersSet.contains(targetSum - i)) {
                 return List.of(i, targetSum - i);
             }
         }
         return new ArrayList<>();
     }
+
     public static void main(String[] args) throws IOException {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             int n = readInt(reader);
@@ -43,7 +43,7 @@ public class TwoSum {
     }
 
     private static List<Integer> readList(BufferedReader reader) throws IOException {
-        return  Arrays.asList(reader.readLine().split(" "))
+        return Arrays.asList(reader.readLine().split(" "))
                 .stream()
                 .map(elem -> Integer.parseInt(elem))
                 .collect(Collectors.toList());
