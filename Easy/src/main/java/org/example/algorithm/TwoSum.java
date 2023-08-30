@@ -11,13 +11,10 @@ public class TwoSum {
     // Если ответ существует, верните список из двух элементов
     // Если нет - то верните пустой список 
     private static List<Integer> twoSum(List<Integer> arr, int targetSum) {
+        HashSet<Integer> resultsSet = new HashSet<>(arr.stream().map(i -> targetSum - i).collect(Collectors.toSet()));
         HashSet<Integer> array = new HashSet<>(arr);
-        List<Integer> lookingForNumbers = array.stream().map(i -> targetSum - i).collect(Collectors.toList());
-        HashSet<Integer> lookingForNumbersSet = new HashSet<>(lookingForNumbers);
-        lookingForNumbersSet.retainAll(array);
-        for (Integer i : arr) {
-            lookingForNumbersSet.remove(i);
-            if (lookingForNumbersSet.contains(targetSum - i)) {
+        for(Integer i : array) {
+            if(resultsSet.contains(targetSum - i)){
                 return List.of(i, targetSum - i);
             }
         }
