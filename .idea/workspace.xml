@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: DNR Linked List">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/KidsWithExtraCandies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/DoubleNumberRepresentedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/DoubleNumberRepresentedLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +51,22 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.GreatestCommonDivisorOfStrings">
+  <component name="RunManager" selected="Application.KidsWithExtraCandies">
     <configuration name="GreatestCommonDivisorOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leet75.GreatestCommonDivisorOfStrings" />
+      <module name="Easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.leet75.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KidsWithExtraCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leet75.KidsWithExtraCandies" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -104,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.algorithm.Zip" />
-      <module name="Easy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KidsWithExtraCandies" />
         <item itemvalue="Application.GreatestCommonDivisorOfStrings" />
         <item itemvalue="Application.MergeWords" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MovingAverage" />
-        <item itemvalue="Application.Zip" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,7 @@
       <workItem from="1693311264491" duration="616000" />
       <workItem from="1693356907482" duration="796000" />
       <workItem from="1693405719709" duration="10824000" />
-      <workItem from="1693485978406" duration="977000" />
+      <workItem from="1693485978406" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693453519602</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: DNR Linked List">
+      <created>1693488084927</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693488084927</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
