@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: GreatestCommonDivisorOfStrings">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/DoubleNumberRepresentedLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/GreatestCommonDivisorOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/GreatestCommonDivisorOfStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,7 @@
       <workItem from="1693269040186" duration="4888000" />
       <workItem from="1693311264491" duration="616000" />
       <workItem from="1693356907482" duration="796000" />
-      <workItem from="1693405719709" duration="5464000" />
+      <workItem from="1693405719709" duration="10203000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693410010962</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: GreatestCommonDivisorOfStrings">
+      <created>1693441878603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693441878603</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
