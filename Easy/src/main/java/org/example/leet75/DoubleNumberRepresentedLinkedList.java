@@ -1,13 +1,11 @@
 package org.example.leet75;
 
-
-// Definition for singly-linked list.
-
-
-import java.util.ArrayList;
-
 public class DoubleNumberRepresentedLinkedList {
-
+    /** TODO
+     *
+     * @param head
+     * @return
+     */
     public ListNode doubleIt(ListNode head) {
         StringBuilder sb = new StringBuilder();
         ListNode presNode = head;
@@ -21,12 +19,13 @@ public class DoubleNumberRepresentedLinkedList {
         int doubled = Integer.parseInt(sb.toString()) * 2;
         String doubledString = String.valueOf(doubled);
 
+        ListNode newHead = new ListNode();
         for(int i = 0; i < doubledString.length(); i++) {
             ListNode nextNode = new ListNode();
             ListNode presentNode = new ListNode(Character.getNumericValue(doubledString.charAt(i)), nextNode);
 
         }
-        while
+        return newHead;
     }
 
     public static void main(String[] args) {

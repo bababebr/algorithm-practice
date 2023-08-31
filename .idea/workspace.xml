@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: GreatestCommonDivisorOfStrings">
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/DoubleNumberRepresentedLinkedList.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: DNR Linked List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/DoubleNumberRepresentedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/DoubleNumberRepresentedLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,8 @@
       <workItem from="1693269040186" duration="4888000" />
       <workItem from="1693311264491" duration="616000" />
       <workItem from="1693356907482" duration="796000" />
-      <workItem from="1693405719709" duration="10203000" />
+      <workItem from="1693405719709" duration="10824000" />
+      <workItem from="1693485978406" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693441878603</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: DNR Linked List">
+      <created>1693453519602</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693453519602</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +221,7 @@
     <MESSAGE value="feat: Ziplock" />
     <MESSAGE value="feat: TwoSum" />
     <MESSAGE value="feat: GreatestCommonDivisorOfStrings" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: GreatestCommonDivisorOfStrings" />
+    <MESSAGE value="feat: DNR Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: DNR Linked List" />
   </component>
 </project>
