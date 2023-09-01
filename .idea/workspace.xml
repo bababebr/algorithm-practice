@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: CanPlantFlowersFast">
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/CanPlaceFlowers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/KidsWithExtraCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ReverseVowel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/DoubleNumberRepresentedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/DoubleNumberRepresentedLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/GreatestCommonDivisorOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/GreatestCommonDivisorOfStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/KidsWithExtraCandies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/MergeWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/MergeWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,22 +51,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CanPlaceFlowers">
+  <component name="RunManager" selected="Application.ReverseVowel">
     <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.CanPlaceFlowers" />
-      <module name="Easy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.leet75.arraysString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KidsWithExtraCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.KidsWithExtraCandies" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -109,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseVowel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.ReverseVowel" />
+      <module name="Easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.leet75.arraysString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.algorithm.TwoSum" />
       <module name="Easy" />
@@ -124,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseVowel" />
         <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MovingAverage" />
@@ -146,7 +142,7 @@
       <workItem from="1693405719709" duration="10824000" />
       <workItem from="1693485978406" duration="6424000" />
       <workItem from="1693528262043" duration="1979000" />
-      <workItem from="1693568074342" duration="4312000" />
+      <workItem from="1693568074342" duration="9100000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693493435895</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: CanPlantFlowersFast">
+      <created>1693573429462</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693573429462</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
