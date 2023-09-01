@@ -1,4 +1,4 @@
-package org.example.leet75;
+package org.example.leet75.arraysString;
 
 import java.util.HashSet;
 

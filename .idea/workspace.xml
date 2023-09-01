@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: DNR Linked List">
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/KidsWithExtraCandies.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: CanPlantFlowersFast">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/CanPlaceFlowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/KidsWithExtraCandies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/DoubleNumberRepresentedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/DoubleNumberRepresentedLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/GreatestCommonDivisorOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/GreatestCommonDivisorOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/KidsWithExtraCandies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/MergeWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/MergeWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +56,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.KidsWithExtraCandies">
-    <configuration name="GreatestCommonDivisorOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leet75.GreatestCommonDivisorOfStrings" />
+  <component name="RunManager" selected="Application.CanPlaceFlowers">
+    <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.CanPlaceFlowers" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.leet75.*" />
+          <option name="PATTERN" value="org.example.leet75.arraysString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,11 +71,11 @@
       </method>
     </configuration>
     <configuration name="KidsWithExtraCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leet75.KidsWithExtraCandies" />
+      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.KidsWithExtraCandies" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.leet75.*" />
+          <option name="PATTERN" value="org.example.leet75.arraysString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,11 +84,11 @@
       </method>
     </configuration>
     <configuration name="MergeWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leet75.MergeWords" />
+      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.MergeWords" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.leet75.*" />
+          <option name="PATTERN" value="org.example.leet75.arraysString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,9 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KidsWithExtraCandies" />
-        <item itemvalue="Application.GreatestCommonDivisorOfStrings" />
-        <item itemvalue="Application.MergeWords" />
+        <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MovingAverage" />
       </list>
@@ -141,7 +144,9 @@
       <workItem from="1693311264491" duration="616000" />
       <workItem from="1693356907482" duration="796000" />
       <workItem from="1693405719709" duration="10824000" />
-      <workItem from="1693485978406" duration="4591000" />
+      <workItem from="1693485978406" duration="6424000" />
+      <workItem from="1693528262043" duration="1979000" />
+      <workItem from="1693568074342" duration="4312000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -206,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693488084927</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: KidsWithExtraCandies slow ver">
+      <created>1693493435895</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693493435895</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +241,8 @@
     <MESSAGE value="feat: TwoSum" />
     <MESSAGE value="feat: GreatestCommonDivisorOfStrings" />
     <MESSAGE value="feat: DNR Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: DNR Linked List" />
+    <MESSAGE value="feat: KidsWithExtraCandies slow ver" />
+    <MESSAGE value="feat: CanPlantFlowersFast" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: CanPlantFlowersFast" />
   </component>
 </project>
