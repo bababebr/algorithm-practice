@@ -4,7 +4,8 @@ public class ReverseWordsInString {
 
 
     public static void main(String[] args) {
-        String s = "s     s";
-        s.repl
+        String s = "s     s    q";
+        s = s.replaceAll("\\s+", " ");
+        System.out.println(s);
     }
 }
