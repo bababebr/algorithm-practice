@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: ReverseWords">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ProductOfArrayExceptSelf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ReverseWordsInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ReverseWordsInString.java" afterDir="false" />
     </list>
@@ -147,7 +148,8 @@
       <workItem from="1693613849945" duration="1159000" />
       <workItem from="1693623237837" duration="1128000" />
       <workItem from="1693637514069" duration="595000" />
-      <workItem from="1693661959436" duration="683000" />
+      <workItem from="1693661959436" duration="2050000" />
+      <workItem from="1693752228725" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -240,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693626156616</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: ReverseWords">
+      <created>1693663859852</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1693663859852</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
