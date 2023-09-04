@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: ReverseWords">
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/TripletArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ReverseWordsInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ReverseWordsInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ProductOfArrayExceptSelf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,26 +52,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseWordsInString">
+  <component name="RunManager" selected="Application.TripletArray">
     <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.CanPlaceFlowers" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.leet75.arraysString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.algorithm.MovingAverage" />
-      <module name="Easy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TripletArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.TripletArray" />
+      <module name="Easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.leet75.arraysString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.algorithm.TwoSum" />
       <module name="Easy" />
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TripletArray" />
         <item itemvalue="Application.ReverseWordsInString" />
         <item itemvalue="Application.ReverseVowel" />
         <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.MovingAverage" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,9 @@
       <workItem from="1693623237837" duration="1128000" />
       <workItem from="1693637514069" duration="595000" />
       <workItem from="1693661959436" duration="2050000" />
-      <workItem from="1693752228725" duration="710000" />
+      <workItem from="1693752228725" duration="797000" />
+      <workItem from="1693796709197" duration="1080000" />
+      <workItem from="1693833948879" duration="3489000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693663859852</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: ReverseWords">
+      <created>1693755641238</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693755641238</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

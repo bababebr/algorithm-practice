@@ -1,9 +1,11 @@
 package org.example.leet75.arraysString;
 
 import java.util.Arrays;
+import java.util.TreeMap;
 
 public class ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
+        TreeMap<Integer, Integer> map = new TreeMap<>();
         int n = nums.length;
         int ans[] = new int[n];
         Arrays.fill(ans, 1);
