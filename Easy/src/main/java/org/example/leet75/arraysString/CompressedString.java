@@ -5,35 +5,21 @@ import java.util.Arrays;
 public class CompressedString {
 
     public static int compress(char[] chars) {
-        StringBuilder compressedString = new StringBuilder();
-        int count = 0;
-        char presentChar = chars[0];
-        for (char c : chars) {
-            if (c == presentChar) {
-                count++;
-            } else {
-                if (count == 1) {
-                    compressedString.append(presentChar);
-                } else {
-                    compressedString.append(presentChar).append(count);
-                }
-                presentChar = c;
-                count = 1;
+        int i = 0, res = 0;
+        while (i < chars.length) {
+            int groupLength = 1;
+            while (i + groupLength < chars.length && chars[i + groupLength] == chars[i]) {
+                groupLength++;
             }
+            chars[res++] = chars[i];
+            if (groupLength > 1) {
+                for (char c : Integer.toString(groupLength).toCharArray()) {
+                    chars[res++] = c;
+                }
+            }
+            i += groupLength;
         }
-        if (count == 1) {
-            compressedString.append(presentChar);
-        } else {
-            compressedString.append(presentChar).append(count);
-        }
-
-        compressedString.getChars(0, compressedString.length(), chars, 0);
-        System.out.println(chars);
-        return chars.length;
+        return res;
     }
 
-    public static void main(String[] args) {
-        char[] chars = new char[]{'a', 'a', 'b', 'c', 'b', 'b', 'b', 'b', 'b'};
-        compress(chars);
-    }
 }
