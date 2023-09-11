@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: ReverseWords">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/TwoPointers/MoveZeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/CompressedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/CompressedString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +51,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompressedString">
-    <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.CanPlaceFlowers" />
+  <component name="RunManager" selected="Application.MoveZeros">
+    <configuration name="CompressedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.CompressedString" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompressedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.CompressedString" />
+    <configuration name="MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leet75.TwoPointers.MoveZeros" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.leet75.arraysString.*" />
+          <option name="PATTERN" value="org.example.leet75.TwoPointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZeros" />
         <item itemvalue="Application.CompressedString" />
         <item itemvalue="Application.TripletArray" />
         <item itemvalue="Application.ReverseWordsInString" />
         <item itemvalue="Application.ReverseVowel" />
-        <item itemvalue="Application.CanPlaceFlowers" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +154,7 @@
       <workItem from="1693928384370" duration="1218000" />
       <workItem from="1693961765780" duration="1639000" />
       <workItem from="1694092940770" duration="721000" />
+      <workItem from="1694155155017" duration="2104000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
