@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 D">
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/F.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 F">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/G.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.F">
+  <component name="RunManager" selected="Application.G">
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.B" />
       <module name="Easy" />
@@ -72,19 +71,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.yandex.sprint1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompressedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.CompressedString" />
-      <module name="Easy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.leet75.arraysString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="G" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.G" />
+      <module name="Easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.G" />
         <item itemvalue="Application.F" />
         <item itemvalue="Application.E" />
         <item itemvalue="Application.C" />
         <item itemvalue="Application.B" />
-        <item itemvalue="Application.CompressedString" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +156,7 @@
       <workItem from="1694092940770" duration="1331000" />
       <workItem from="1694228294147" duration="1616000" />
       <workItem from="1694736437485" duration="7834000" />
-      <workItem from="1694783506421" duration="2562000" />
+      <workItem from="1694783506421" duration="3489000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -313,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694747378201</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat: Sprint 1 F">
+      <created>1694788026195</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1694788026195</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +350,7 @@
     <MESSAGE value="feat: isSubsequence" />
     <MESSAGE value="feat: Sprint 1 A, B, C" />
     <MESSAGE value="feat: Sprint 1 D" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 D" />
+    <MESSAGE value="feat: Sprint 1 F" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 F" />
   </component>
 </project>
