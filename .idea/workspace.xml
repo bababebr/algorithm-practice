@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: CompressedString">
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/twoPointers/IsSubsequence.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: isSubsequence">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/twoPointers/IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/twoPointers/IsSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +54,26 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompressedString">
-    <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.CanPlaceFlowers" />
+  <component name="RunManager" selected="Application.C">
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.B" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.leet75.arraysString.*" />
+          <option name="PATTERN" value="org.example.yandex.sprint1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.C" />
+      <module name="Easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,19 +83,6 @@
     </configuration>
     <configuration name="CompressedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.CompressedString" />
-      <module name="Easy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.leet75.arraysString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseVowel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leet75.arraysString.ReverseVowel" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C" />
+        <item itemvalue="Application.B" />
         <item itemvalue="Application.CompressedString" />
         <item itemvalue="Application.TripletArray" />
         <item itemvalue="Application.ReverseWordsInString" />
-        <item itemvalue="Application.ReverseVowel" />
-        <item itemvalue="Application.CanPlaceFlowers" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +157,8 @@
       <workItem from="1693928384370" duration="1218000" />
       <workItem from="1693961765780" duration="1639000" />
       <workItem from="1694092940770" duration="1331000" />
-      <workItem from="1694228294147" duration="1005000" />
+      <workItem from="1694228294147" duration="1616000" />
+      <workItem from="1694736437485" duration="4042000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -289,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694094441808</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: isSubsequence">
+      <created>1694230280972</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1694230280972</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +328,7 @@
     <MESSAGE value="feat: ReverseVowel" />
     <MESSAGE value="feat: ReverseWords" />
     <MESSAGE value="feat: CompressedString" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: CompressedString" />
+    <MESSAGE value="feat: isSubsequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: isSubsequence" />
   </component>
 </project>
