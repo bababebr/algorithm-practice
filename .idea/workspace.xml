@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 F">
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/G.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 G">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/H.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +156,8 @@
       <workItem from="1694092940770" duration="1331000" />
       <workItem from="1694228294147" duration="1616000" />
       <workItem from="1694736437485" duration="7834000" />
-      <workItem from="1694783506421" duration="3489000" />
+      <workItem from="1694783506421" duration="4435000" />
+      <workItem from="1694821342293" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -319,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694788026195</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: Sprint 1 G">
+      <created>1694788901583</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1694788901583</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +359,7 @@
     <MESSAGE value="feat: Sprint 1 A, B, C" />
     <MESSAGE value="feat: Sprint 1 D" />
     <MESSAGE value="feat: Sprint 1 F" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 F" />
+    <MESSAGE value="feat: Sprint 1 G" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 G" />
   </component>
 </project>
