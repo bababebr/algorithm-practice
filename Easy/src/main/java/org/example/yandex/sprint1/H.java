@@ -7,35 +7,32 @@ import java.io.InputStreamReader;
 
 public class H {
     private static String sumOfBinaries(String a, String b) {
-        int lenA = a.length();
-        int lenB = b.length();
-        if (lenA > lenB) {
-            return sumBinary(a, b);
-        } else {
-            return sumBinary(b, a);
-        }
-
-    }
-
-    private static String sumBinary(String a, String b) {
+        if (a == null || b == null) return "";
+        int first = a.length() - 1;
+        int second = b.length() - 1;
         StringBuilder sb = new StringBuilder();
-        int j = b.length() - 1;
-        for (int i = a.length() - 1; i >= 0; i--) {
-            if (j >= 0) {
-                int sum = Integer.parseInt(String.valueOf(a.charAt(i))) + Integer.parseInt(String.valueOf(b.charAt(j)));
-                if (sum == 2) {
-                    sb.append(0);
-                    sb.append(1);
-                } else {
-                    sb.append(sum);
-                }
-            } else {
-                sb.append(a.charAt(i));
+        int carry = 0;
+        while (first >= 0 || second >= 0) {
+            int sum = carry;
+            if (first >= 0) {
+                sum += a.charAt(first) - '0';
+                first--;
             }
-            j--;
+            if (second >= 0) {
+                sum += b.charAt(second) - '0';
+                second--;
+            }
+            carry = sum >> 1;
+            sum = sum & 1;
+            sb.append(sum == 0 ? '0' : '1');
         }
-        return sb.reverse().toString();
+        if (carry > 0)
+            sb.append('1');
+
+        sb.reverse();
+        return String.valueOf(sb);
     }
+
 
     public static void main(String[] args) throws IOException {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
