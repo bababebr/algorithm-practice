@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 G">
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 H">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/I.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/H.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/H.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694788901583</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: Sprint 1 H">
+      <created>1694873965176</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1694873965176</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +367,7 @@
     <MESSAGE value="feat: Sprint 1 D" />
     <MESSAGE value="feat: Sprint 1 F" />
     <MESSAGE value="feat: Sprint 1 G" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 G" />
+    <MESSAGE value="feat: Sprint 1 H" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 H" />
   </component>
 </project>
