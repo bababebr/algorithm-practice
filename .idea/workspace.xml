@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 I">
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/J.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Final A slow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +158,8 @@
       <workItem from="1694736437485" duration="7834000" />
       <workItem from="1694783506421" duration="4435000" />
       <workItem from="1694821342293" duration="596000" />
-      <workItem from="1694909307912" duration="4920000" />
+      <workItem from="1694909307912" duration="4950000" />
+      <workItem from="1694947386915" duration="497000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -357,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694911898710</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: Final A slow">
+      <created>1694917524787</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1694917524787</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,6 +399,7 @@
     <MESSAGE value="feat: Sprint 1 G" />
     <MESSAGE value="feat: Sprint 1 H" />
     <MESSAGE value="feat: Sprint 1 I" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 I" />
+    <MESSAGE value="feat: Final A slow" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Final A slow" />
   </component>
 </project>
