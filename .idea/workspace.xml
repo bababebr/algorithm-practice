@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 H">
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 I">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/J.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/I.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/I.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +52,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.I">
-    <configuration name="E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.E" />
+  <component name="RunManager" selected="Application.Final_A">
+    <configuration name="F" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.F" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="F" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.F" />
+    <configuration name="Final_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.Final_A" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Final_A" />
         <item itemvalue="Application.I" />
         <item itemvalue="Application.H" />
         <item itemvalue="Application.G" />
         <item itemvalue="Application.F" />
-        <item itemvalue="Application.E" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +159,7 @@
       <workItem from="1694736437485" duration="7834000" />
       <workItem from="1694783506421" duration="4435000" />
       <workItem from="1694821342293" duration="596000" />
-      <workItem from="1694909307912" duration="1392000" />
+      <workItem from="1694909307912" duration="4920000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -342,7 +343,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694876476681</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat: Sprint 1 I">
+      <created>1694911595893</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1694911595893</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: Sprint 1 I">
+      <created>1694911898710</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1694911898710</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +391,7 @@
     <MESSAGE value="feat: Sprint 1 F" />
     <MESSAGE value="feat: Sprint 1 G" />
     <MESSAGE value="feat: Sprint 1 H" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 H" />
+    <MESSAGE value="feat: Sprint 1 I" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 I" />
   </component>
 </project>
