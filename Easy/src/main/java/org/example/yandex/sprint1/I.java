@@ -13,23 +13,6 @@ public class I {
         return isPowerOfFour(n/4);
     }
 
-    public static int sqrt(int number) {
-        int low = 0;
-        int high = number;
-        while (low <= high) {
-            int mid = (low + high) / 2;
-            int square = mid * mid;
-            if (square == number) {
-                return mid;
-            } else if (square < number) {
-                low = mid + 1;
-            } else {
-                high = mid - 1;
-            }
-        }
-        return 0;
-    }
-
     public static void main(String[] args) throws IOException {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             int n = readInt(reader);
@@ -40,7 +23,6 @@ public class I {
             }
         }
     }
-
 
     private static int readInt(BufferedReader reader) throws IOException {
         return Integer.parseInt(reader.readLine());
