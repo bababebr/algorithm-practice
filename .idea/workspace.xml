@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Final A slow">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +51,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Final_A">
-    <configuration name="F" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.F" />
+  <component name="RunManager" selected="Application.Final_B">
+    <configuration name="Final_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.Final_A" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Final_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.Final_A" />
+    <configuration name="Final_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.Final_B" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Final_B" />
         <item itemvalue="Application.Final_A" />
         <item itemvalue="Application.I" />
         <item itemvalue="Application.H" />
         <item itemvalue="Application.G" />
-        <item itemvalue="Application.F" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +159,7 @@
       <workItem from="1694783506421" duration="4435000" />
       <workItem from="1694821342293" duration="596000" />
       <workItem from="1694909307912" duration="4950000" />
-      <workItem from="1694947386915" duration="497000" />
+      <workItem from="1694947386915" duration="3759000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -364,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694917524787</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat: Final A slow">
+      <created>1694948109406</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1694948109406</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
