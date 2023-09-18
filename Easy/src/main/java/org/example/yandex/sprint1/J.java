@@ -11,17 +11,17 @@ import java.util.List;
 public class J {
 
     private static List<Integer> factorize(int n) {
-        System.out.println(isPrime(4));
-        return null;
-    }
-
-    private static boolean isPrime(int n) {
-        for (int i = 2; i <= n; i++) {
-            if ((n % i) == 0) {
-                return false;
+        List<Integer> factors = new ArrayList<>();
+        for (int i = 2; i <= n / i; i++) {
+            while (n % i == 0) {
+                factors.add(i);
+                n /= i;
             }
         }
-        return true;
+        if (n > 1) {
+            factors.add(n);
+        }
+        return factors;
     }
 
     public static void main(String[] args) throws IOException {
