@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 Done">
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: H">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.L">
+  <component name="RunManager" selected="Application.Final_A">
     <configuration name="Final_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.Final_A" />
       <module name="Easy" />
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Final_A" />
         <item itemvalue="Application.L" />
         <item itemvalue="Application.K" />
         <item itemvalue="Application.J" />
         <item itemvalue="Application.Final_B" />
-        <item itemvalue="Application.Final_A" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,7 @@
       <workItem from="1694991224882" duration="14000" />
       <workItem from="1695034111156" duration="593000" />
       <workItem from="1695043294079" duration="1762000" />
-      <workItem from="1695075274795" duration="7075000" />
+      <workItem from="1695075274795" duration="5329000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -396,14 +396,7 @@
       <option name="project" value="LOCAL" />
       <updated>1695076126532</updated>
     </task>
-    <task id="LOCAL-00034" summary="feat: Sprint 1 Done">
-      <created>1695085968317</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1695085968317</updated>
-    </task>
-    <option name="localTasksCounter" value="35" />
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +434,6 @@
     <MESSAGE value="feat: Final A slow" />
     <MESSAGE value="feat: Final B" />
     <MESSAGE value="feat: Sprint 1 J" />
-    <MESSAGE value="feat: Sprint 1 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 J" />
   </component>
 </project>
