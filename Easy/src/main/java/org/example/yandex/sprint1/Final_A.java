@@ -13,7 +13,30 @@ public class Final_A {
      * @return
      */
     public static String zero(List<Integer> arr) {
-        TreeMap<Integer, Integer> zerosIdx = new TreeMap<>();
+
+        int dist = Integer.MAX_VALUE;
+        for(int i = 0; i < arr.size(); i++) {
+            if(arr.get(i) == 0) {
+                dist = 0;
+                firstPassArray.add(0);
+            } else if (dist == -1){
+                firstPassArray.add(dist);
+            } else {
+                firstPassArray.add(++dist);
+            }
+        }
+        for(int i = arr.size() - 1; i >= 0; i--) {
+            if(firstPassArray.get(i) == 0) {
+                dist = 0;
+
+            } else if (Character.digit(sb.charAt(i), Integer.MAX_VALUE) < dist) {
+                ++dist;
+            } else {
+                sb.setCharAt(i, Character.(dist));
+            }
+        }
+        return null;
+        /*        TreeMap<Integer, Integer> zerosIdx = new TreeMap<>();
         StringBuilder distances = new StringBuilder();
         for (int i = 0; i < arr.size(); i++) {
             if (arr.get(i) == 0) {
@@ -39,7 +62,7 @@ public class Final_A {
                 distances.append(minDist).append(" ");
             }
         }
-        return distances.toString();
+        return distances.toString();*/
     }
 
     public static void main(String[] args) throws IOException {
@@ -59,10 +82,10 @@ public class Final_A {
         return Integer.parseInt(reader.readLine());
     }
 
-    private static List<Integer> readList(BufferedReader reader) throws IOException {
+    private static Integer[] readList(BufferedReader reader) throws IOException {
+
         return Arrays.asList(reader.readLine().split(" "))
                 .stream()
-                .map(elem -> Integer.parseInt(elem))
-                .collect(Collectors.toList());
+                .map(elem -> Integer.parseInt(elem)).toArray();
     }
 }
