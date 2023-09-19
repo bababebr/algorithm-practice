@@ -3,72 +3,41 @@ package org.example.yandex.sprint1;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.Arrays;
 
 public class Final_A {
-    /**
-     * Slow - refactoring required.
-     * @param arr
-     * @return
-     */
-    public static String zero(List<Integer> arr) {
 
-        int dist = Integer.MAX_VALUE;
-        for(int i = 0; i < arr.size(); i++) {
-            if(arr.get(i) == 0) {
+    public static String zero(Integer[] arr) {
+        int dist = 2147483647;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0) {
                 dist = 0;
-                firstPassArray.add(0);
-            } else if (dist == -1){
-                firstPassArray.add(dist);
+                arr[i] = dist;
+            } else if (dist == 2147483647) {
+                arr[i] = dist;
             } else {
-                firstPassArray.add(++dist);
+                arr[i] = (++dist);
             }
         }
-        for(int i = arr.size() - 1; i >= 0; i--) {
-            if(firstPassArray.get(i) == 0) {
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] == 0) {
                 dist = 0;
-
-            } else if (Character.digit(sb.charAt(i), Integer.MAX_VALUE) < dist) {
-                ++dist;
-            } else {
-                sb.setCharAt(i, Character.(dist));
+            } else if (arr[i] == 2147483647 || arr[i] > dist) {
+                arr[i] = ++dist;
             }
         }
-        return null;
-        /*        TreeMap<Integer, Integer> zerosIdx = new TreeMap<>();
-        StringBuilder distances = new StringBuilder();
-        for (int i = 0; i < arr.size(); i++) {
-            if (arr.get(i) == 0) {
-                zerosIdx.put(i, 0);
-            }
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < arr.length - 1; i++) {
+            sb.append(arr[i]).append(" ");
         }
-        int minDist;
-        Integer lower;
-        Integer higher;
-        for (int i = 0; i < arr.size(); i++) {
-            if (zerosIdx.containsKey(i)) {
-                distances.append(0).append(" ");
-            } else {
-                lower = zerosIdx.lowerKey(i);
-                higher = zerosIdx.higherKey(i);
-                if (higher == null) {
-                    minDist = i - lower;
-                } else if (lower == null) {
-                    minDist = higher - i;
-                } else {
-                    minDist = (i - lower) > (higher - i) ? (higher - i) : (i - lower);
-                }
-                distances.append(minDist).append(" ");
-            }
-        }
-        return distances.toString();*/
+        sb.append(arr[arr.length - 1]);
+        return sb.toString();
     }
 
     public static void main(String[] args) throws IOException {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             int n = readInt(reader);
-            List<Integer> arr = readList(reader);
+            Integer[] arr = readList(reader);
             String result = zero(arr);
             if (result.isEmpty()) {
                 System.out.println("None");
@@ -86,6 +55,6 @@ public class Final_A {
 
         return Arrays.asList(reader.readLine().split(" "))
                 .stream()
-                .map(elem -> Integer.parseInt(elem)).toArray();
+                .map(elem -> Integer.parseInt(elem)).toArray(Integer[]::new);
     }
 }
