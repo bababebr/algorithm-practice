@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: ContainerWithMostWater">
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/A.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 A">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +164,9 @@
       <workItem from="1695034111156" duration="593000" />
       <workItem from="1695043294079" duration="1762000" />
       <workItem from="1695075274795" duration="5329000" />
-      <workItem from="1695255063924" duration="1991000" />
+      <workItem from="1695255063924" duration="3118000" />
+      <workItem from="1695296101122" duration="1742000" />
+      <workItem from="1695298643141" duration="1120000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -411,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695129392276</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="feat: Sprint 2 A">
+      <created>1695268024406</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1695268024406</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,6 +460,7 @@
     <MESSAGE value="feat: Sprint 1 J" />
     <MESSAGE value="feat: Sprint 1 corrections" />
     <MESSAGE value="feat: ContainerWithMostWater" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: ContainerWithMostWater" />
+    <MESSAGE value="feat: Sprint 2 A" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 A" />
   </component>
 </project>

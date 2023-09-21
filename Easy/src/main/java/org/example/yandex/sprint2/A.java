@@ -8,7 +8,11 @@ import java.util.Arrays;
 public class A {
 
     public static Integer[][] solution(int n, int m, Integer[][] matrix) {
-        System.out.println(Arrays.toString(matrix));
+        StringBuilder sb = new StringBuilder();
+        int[][] transposedMatrix = new int[m][n];
+        for(int i = 0; i < m; i++) {
+            transposedMatrix[i] = matrix[]
+        }
         return null;
     }
 
@@ -17,7 +21,6 @@ public class A {
             int n = readInt(reader);
             int m = readInt(reader);
             Integer[][] matrix = readMatrix(n, m, reader);
-
             solution(n, m, matrix);
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -35,7 +38,8 @@ public class A {
     public static Integer[][] readMatrix(int n, int m, BufferedReader reader) throws IOException {
         Integer[][] matrix = new Integer[n][m];
         for (int i = 0; i < n; i++) {
-            matrix[n] = readArray(reader);
+            System.out.println(i);
+            matrix[i] = readArray(reader);
         }
         return matrix;
     }
