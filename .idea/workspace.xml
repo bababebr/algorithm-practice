@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 1 corrections">
-      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/TwoPointers/ContainerWithMostWater.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: ContainerWithMostWater">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,20 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainerWithMostWater">
+  <component name="RunManager" selected="Application.A">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.A" />
+      <module name="Easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leet75.twoPointers.ContainerWithMostWater" />
       <module name="Easy" />
@@ -67,19 +80,6 @@
     </configuration>
     <configuration name="Final_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.Final_A" />
-      <module name="Easy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="J" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.J" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.Final_A" />
         <item itemvalue="Application.L" />
         <item itemvalue="Application.K" />
-        <item itemvalue="Application.J" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +164,7 @@
       <workItem from="1695034111156" duration="593000" />
       <workItem from="1695043294079" duration="1762000" />
       <workItem from="1695075274795" duration="5329000" />
+      <workItem from="1695255063924" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -403,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695121650447</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="feat: ContainerWithMostWater">
+      <created>1695129392276</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1695129392276</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,6 +450,7 @@
     <MESSAGE value="feat: Final B" />
     <MESSAGE value="feat: Sprint 1 J" />
     <MESSAGE value="feat: Sprint 1 corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 1 corrections" />
+    <MESSAGE value="feat: ContainerWithMostWater" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ContainerWithMostWater" />
   </component>
 </project>
