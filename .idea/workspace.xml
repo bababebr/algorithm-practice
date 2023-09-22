@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 A">
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/A.java" afterDir="false" />
     </list>
@@ -51,9 +53,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.A">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.A" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.B" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="K" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.K" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.Solution" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint1.*" />
+          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.L" />
+    <configuration name="org.example.yandex.sprint2.A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.A" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint1.*" />
+          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.A" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.org.example.yandex.sprint2.A" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.Final_A" />
-        <item itemvalue="Application.L" />
-        <item itemvalue="Application.K" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +168,9 @@
       <workItem from="1695075274795" duration="5329000" />
       <workItem from="1695255063924" duration="3118000" />
       <workItem from="1695296101122" duration="1742000" />
-      <workItem from="1695298643141" duration="1120000" />
+      <workItem from="1695298643141" duration="1618000" />
+      <workItem from="1695330314909" duration="4429000" />
+      <workItem from="1695371355848" duration="2318000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -420,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695268024406</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="feat: Sprint 2 A">
+      <created>1695300599831</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1695300599831</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
