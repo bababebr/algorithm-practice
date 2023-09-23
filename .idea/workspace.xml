@@ -5,50 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 A">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/twoPointers/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/twoPointers/MoveZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/LinkedListDeleteNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/StackMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/algo/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/algorithm/MovingAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/algorithm/MovingAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/algorithm/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/algorithm/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/algorithm/Zip.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/algorithm/Zip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/TwoPointers/ContainerWithMostWater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/TwoPointers/MoveZeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/arraysString/CanPlaceFlowers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/CompressedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/arraysString/CompressedString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/DoubleNumberRepresentedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/arraysString/DoubleNumberRepresentedLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/GreatestCommonDivisorOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/arraysString/GreatestCommonDivisorOfStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/KidsWithExtraCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/arraysString/KidsWithExtraCandies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/MergeWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/arraysString/MergeWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/arraysString/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ReverseVowel.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/arraysString/ReverseVowel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/ReverseWordsInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/arraysString/ReverseWordsInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/arraysString/TripletArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/arraysString/TripletArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/leet75/twoPointers/IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/twoPointers/IsSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/E.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/F.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/F.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/Final_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/Final_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/Final_B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/G.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/G.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/H.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/H.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/I.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/I.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/J.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/J.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/K.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/K.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint1/L.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint1/L.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/main/java/org/example/yandex/sprint2/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/src/test/java/org/example/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/test/java/org/example/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +52,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.org.example.yandex.sprint2.LinkedListDeleteNode">
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.B" />
+  <component name="RunManager" selected="Application.StackMax">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.A" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -120,21 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Final_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint1.Final_A" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.yandex.sprint2.A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.A" />
+    <configuration name="LinkedListDeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.LinkedListDeleteNode" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.yandex.sprint2.LinkedListDeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.LinkedListDeleteNode" />
+    <configuration name="StackMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.StackMax" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.yandex.sprint2.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.Solution" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -161,10 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackMax" />
+        <item itemvalue="Application.org.example.yandex.sprint2.Solution" />
         <item itemvalue="Application.org.example.yandex.sprint2.LinkedListDeleteNode" />
         <item itemvalue="Application.org.example.yandex.sprint2.A" />
         <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.Final_A" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +171,8 @@
       <workItem from="1695330314909" duration="4429000" />
       <workItem from="1695371355848" duration="2395000" />
       <workItem from="1695415174619" duration="3900000" />
+      <workItem from="1695427175237" duration="64000" />
+      <workItem from="1695460669485" duration="3958000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -478,7 +440,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695382462501</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="feat: Sprint 2 A">
+      <created>1695427202504</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1695427202504</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat: Sprint 2 A">
+      <created>1695427228182</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1695427228182</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

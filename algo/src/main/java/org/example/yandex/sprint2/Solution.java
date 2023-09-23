@@ -1,6 +1,5 @@
 package org.example.yandex.sprint2;
 
-Comment it before submitting
 class Node<V> {
     public V value;
     public Node<V> next;
@@ -14,9 +13,19 @@ class Node<V> {
 }
 
 public class Solution {
+
     public static Node<String> solution(Node<String> head) {
-        // Your code
-        // ヽ(´▽`)/
+        Node<String> prev = null;
+        Node<String> current = head;
+        Node<String> next = null;
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        head = prev;
+        return head;
     }
 
     private static void test() {
