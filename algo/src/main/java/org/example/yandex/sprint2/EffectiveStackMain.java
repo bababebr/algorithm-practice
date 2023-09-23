@@ -11,11 +11,10 @@ class EffectiveStack {
      * Spring 2 - G
      */
     private ArrayList<Integer> stack;
-    private int max = 0;
+    private int max = Integer.MIN_VALUE;
 
     public EffectiveStack() {
         this.stack = new ArrayList<>();
-        max = 0;
     }
 
     public void push(int x) {
