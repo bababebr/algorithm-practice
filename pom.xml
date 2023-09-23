@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Easy</module>
+        <module>algo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
