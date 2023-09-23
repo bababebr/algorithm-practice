@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 A">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/StackMax.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 F">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/EffectiveStackMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/StackMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/StackMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,26 +33,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/bridge.VSHIPS/IdeaProjects/AlgorithmPractice/algo/src/main/java/org/example/yandex/sprint2",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bridge.VSHIPS\IdeaProjects\AlgorithmPractice\algo\src\main\java\org\example\yandex\sprint2" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackMax">
+  <component name="RunManager" selected="Application.EffectiveStackMain">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.A" />
       <module name="algo" />
@@ -66,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leet75.twoPointers.ContainerWithMostWater" />
+    <configuration name="EffectiveStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.EffectiveStackMain" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.leet75.twoPointers.*" />
+          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackMax" />
+        <item itemvalue="Application.EffectiveStackMain" />
+        <item itemvalue="Application.org.example.yandex.sprint2.StackMax" />
         <item itemvalue="Application.org.example.yandex.sprint2.Solution" />
         <item itemvalue="Application.org.example.yandex.sprint2.LinkedListDeleteNode" />
         <item itemvalue="Application.org.example.yandex.sprint2.A" />
-        <item itemvalue="Application.ContainerWithMostWater" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +178,7 @@
       <workItem from="1695371355848" duration="2395000" />
       <workItem from="1695415174619" duration="3900000" />
       <workItem from="1695427175237" duration="64000" />
-      <workItem from="1695460669485" duration="3958000" />
+      <workItem from="1695460669485" duration="5751000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -454,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695427228182</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="feat: Sprint 2 F">
+      <created>1695466419260</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1695466419260</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,6 +508,7 @@
     <MESSAGE value="feat: Sprint 1 corrections" />
     <MESSAGE value="feat: ContainerWithMostWater" />
     <MESSAGE value="feat: Sprint 2 A" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 A" />
+    <MESSAGE value="feat: Sprint 2 F" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 F" />
   </component>
 </project>
