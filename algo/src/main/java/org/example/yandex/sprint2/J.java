@@ -25,7 +25,6 @@ class LinkedQueue {
 
     public Optional<Integer> get() {
         if (head == null) {
-            System.out.println("error");
             return null;
         } else {
             int value = head.value;
