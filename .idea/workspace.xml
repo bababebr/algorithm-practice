@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 G">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/H.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/EffectiveStackMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/EffectiveStackMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +57,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.EffectiveStackMain">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.A" />
+  <component name="RunManager" selected="Application.H">
+    <configuration name="EffectiveStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.EffectiveStackMain" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EffectiveStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.EffectiveStackMain" />
+    <configuration name="H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.H" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -125,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.H" />
         <item itemvalue="Application.EffectiveStackMain" />
         <item itemvalue="Application.org.example.yandex.sprint2.Solution" />
       </list>
@@ -175,7 +176,9 @@
       <workItem from="1695415174619" duration="3900000" />
       <workItem from="1695427175237" duration="64000" />
       <workItem from="1695460669485" duration="5972000" />
-      <workItem from="1695503360057" duration="1130000" />
+      <workItem from="1695503360057" duration="1164000" />
+      <workItem from="1695544028718" duration="3818000" />
+      <workItem from="1695975251500" duration="4440000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -471,7 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695468847872</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="feat: Sprint 2 G">
+      <created>1695511359964</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1695511359964</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat: Sprint 2 G">
+      <created>1695978468814</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1695978468814</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
