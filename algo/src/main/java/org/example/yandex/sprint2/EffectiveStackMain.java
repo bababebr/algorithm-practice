@@ -11,35 +11,31 @@ class EffectiveStack {
      * Spring 2 - G
      */
     private ArrayList<Integer> stack;
-    private int max = Integer.MIN_VALUE;
+    private ArrayList<Integer> maxArray;
 
     public EffectiveStack() {
         this.stack = new ArrayList<>();
+        this.maxArray = new ArrayList<>();
+        this.maxArray.add(Integer.MIN_VALUE);
     }
 
     public void push(int x) {
         stack.add(x);
-        if(x >= max) max = x;
+        if (maxArray.get(stack.size() - 1) < x) {
+            maxArray.add(x);
+        } else {
+            maxArray.add(maxArray.get(maxArray.size() - 1));
+        }
     }
 
     public int pop() {
+        maxArray.remove(maxArray.size() - 1);
         int remove = stack.remove(stack.size() - 1);
-        if(remove == max) {
-            max = calc_max();
-        }
         return remove;
     }
 
     public int get_max() {
-        return max;
-    }
-
-    private int calc_max() {
-        int maxNumberInStack = Integer.MIN_VALUE;
-        for (Integer i : stack) {
-            if (i > maxNumberInStack) maxNumberInStack = i;
-        }
-        return maxNumberInStack;
+        return maxArray.get(maxArray.size() - 1);
     }
 
     public boolean isEmpty() {
