@@ -71,7 +71,6 @@ public class EffectiveStackMain {
                 System.out.println(stack.get_max());
             }
         }
-
         if (command.equals("pop")) {
             if (stack.isEmpty()) {
                 System.out.println("error");
@@ -79,7 +78,6 @@ public class EffectiveStackMain {
                 stack.pop();
             }
         }
-
         if (command.startsWith("push")) {
             int number = Integer.parseInt(command.split(" ")[1]);
             stack.push(number);

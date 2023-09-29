@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 G">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/H.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 H">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/J.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/MyQueueSized_H.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/EffectiveStackMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/EffectiveStackMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +59,34 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.H">
-    <configuration name="EffectiveStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.J">
+    <configuration name="J" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.J" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.Solution" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.yandex.sprint2.EffectiveStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.EffectiveStackMain" />
       <module name="algo" />
       <extension name="coverage">
@@ -71,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.yandex.sprint2.H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.H" />
       <module name="algo" />
       <extension name="coverage">
@@ -84,34 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.LinkedListDeleteNode" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.StackMax" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.yandex.sprint2.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.Solution" />
+    <configuration name="org.example.yandex.sprint2.MyQueueSized_H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.MyQueueSized_H" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.H" />
-        <item itemvalue="Application.EffectiveStackMain" />
+        <item itemvalue="Application.J" />
+        <item itemvalue="Application.org.example.yandex.sprint2.MyQueueSized_H" />
+        <item itemvalue="Application.org.example.yandex.sprint2.H" />
+        <item itemvalue="Application.org.example.yandex.sprint2.EffectiveStackMain" />
         <item itemvalue="Application.org.example.yandex.sprint2.Solution" />
       </list>
     </recent_temporary>
@@ -178,7 +182,7 @@
       <workItem from="1695460669485" duration="5972000" />
       <workItem from="1695503360057" duration="1164000" />
       <workItem from="1695544028718" duration="3818000" />
-      <workItem from="1695975251500" duration="4440000" />
+      <workItem from="1695975251500" duration="8138000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -488,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695978468814</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="feat: Sprint 2 H">
+      <created>1695982009328</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1695982009328</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit." />
     <MESSAGE value="feat: Ziplock" />
     <MESSAGE value="feat: TwoSum" />
     <MESSAGE value="feat: GreatestCommonDivisorOfStrings" />
@@ -531,6 +541,7 @@
     <MESSAGE value="feat: Sprint 2 A" />
     <MESSAGE value="feat: Sprint 2 F" />
     <MESSAGE value="feat: Sprint 2 G" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 G" />
+    <MESSAGE value="feat: Sprint 2 H" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 H" />
   </component>
 </project>
