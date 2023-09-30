@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 J LinkedQueue">
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 J LinkedQueue- Done">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/FibonacciLastDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/J.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/J.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +58,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.J">
-    <configuration name="J" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.J" />
+  <component name="RunManager" selected="Application.FibonacciLastDigits">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.Fibonacci" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.Solution" />
+    <configuration name="FibonacciLastDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.FibonacciLastDigits" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -84,20 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.yandex.sprint2.EffectiveStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.EffectiveStackMain" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.yandex.sprint2.H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.H" />
       <module name="algo" />
       <extension name="coverage">
@@ -110,8 +98,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.yandex.sprint2.MyQueueSized_H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MyQueueSized_H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.MyQueueSized_H" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.yandex.sprint2.J" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.J" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -125,10 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.J" />
-        <item itemvalue="Application.org.example.yandex.sprint2.MyQueueSized_H" />
-        <item itemvalue="Application.org.example.yandex.sprint2.H" />
-        <item itemvalue="Application.org.example.yandex.sprint2.EffectiveStackMain" />
+        <item itemvalue="Application.FibonacciLastDigits" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.org.example.yandex.sprint2.J" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,8 @@
       <workItem from="1695503360057" duration="1164000" />
       <workItem from="1695544028718" duration="3818000" />
       <workItem from="1695975251500" duration="12711000" />
-      <workItem from="1696063785743" duration="729000" />
+      <workItem from="1696063785743" duration="3889000" />
+      <workItem from="1696112121348" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -511,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696031198725</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="feat: Sprint 2 J LinkedQueue- Done">
+      <created>1696064776732</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1696064776732</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: TwoSum" />
     <MESSAGE value="feat: GreatestCommonDivisorOfStrings" />
     <MESSAGE value="feat: DNR Linked List" />
     <MESSAGE value="feat: KidsWithExtraCandies slow ver" />
@@ -554,6 +561,7 @@
     <MESSAGE value="feat: Sprint 2 G" />
     <MESSAGE value="feat: Sprint 2 H" />
     <MESSAGE value="feat: Sprint 2 J LinkedQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 J LinkedQueue" />
+    <MESSAGE value="feat: Sprint 2 J LinkedQueue- Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 J LinkedQueue- Done" />
   </component>
 </project>
