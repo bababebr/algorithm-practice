@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 H">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/J.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/MyQueueSized_H.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 J LinkedQueue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/EffectiveStackMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/EffectiveStackMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/J.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/J.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +129,6 @@
         <item itemvalue="Application.org.example.yandex.sprint2.MyQueueSized_H" />
         <item itemvalue="Application.org.example.yandex.sprint2.H" />
         <item itemvalue="Application.org.example.yandex.sprint2.EffectiveStackMain" />
-        <item itemvalue="Application.org.example.yandex.sprint2.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +179,8 @@
       <workItem from="1695460669485" duration="5972000" />
       <workItem from="1695503360057" duration="1164000" />
       <workItem from="1695544028718" duration="3818000" />
-      <workItem from="1695975251500" duration="8138000" />
+      <workItem from="1695975251500" duration="12711000" />
+      <workItem from="1696063785743" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1693194465544</created>
@@ -499,7 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695982009328</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="feat: Sprint 2 H">
+      <created>1695986932212</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1695986932212</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat: Sprint 2 J LinkedQueue">
+      <created>1696031198725</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1696031198725</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Ziplock" />
     <MESSAGE value="feat: TwoSum" />
     <MESSAGE value="feat: GreatestCommonDivisorOfStrings" />
     <MESSAGE value="feat: DNR Linked List" />
@@ -542,6 +553,7 @@
     <MESSAGE value="feat: Sprint 2 F" />
     <MESSAGE value="feat: Sprint 2 G" />
     <MESSAGE value="feat: Sprint 2 H" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 H" />
+    <MESSAGE value="feat: Sprint 2 J LinkedQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 J LinkedQueue" />
   </component>
 </project>

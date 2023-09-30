@@ -20,6 +20,7 @@ class LinkedQueue {
     private NodeJ<Integer> head = null;
     private NodeJ<Integer> lastNode = null;
     int size = 0;
+
     public LinkedQueue() {
     }
 
@@ -35,12 +36,13 @@ class LinkedQueue {
     }
 
     public void put(int x) {
-        if(head == null) {
+        if (head == null) {
             head = new NodeJ<>(x, null);
             lastNode = head;
         } else {
-            lastNode.next = new NodeJ<>(x, null);
-            lastNode = lastNode.next;
+            NodeJ<Integer> newNode = new NodeJ<>(x, null);
+            lastNode.next = newNode;
+            lastNode = newNode;
         }
         size++;
     }
@@ -80,11 +82,11 @@ public class J {
                 System.out.println(result.get());
             }
         }
-        if (command.startsWith("push")) {
+        if (command.startsWith("put")) {
             int number = Integer.parseInt(command.split(" ")[1]);
             queue.put(number);
         }
-        if(command.startsWith("size")) {
+        if (command.startsWith("size")) {
             System.out.println(queue.size());
         }
     }
