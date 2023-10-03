@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Deq.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 Final Deq">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/twoPointers/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/leet75/twoPointers/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Deq.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Deq.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,14 +180,7 @@
       <workItem from="1696161544366" duration="624000" />
       <workItem from="1696199326096" duration="593000" />
       <workItem from="1696283058494" duration="2088000" />
-      <workItem from="1696323586318" duration="6338000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit.">
-      <created>1693194465544</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1693194465544</updated>
+      <workItem from="1696323586318" duration="7884000" />
     </task>
     <task id="LOCAL-00002" summary="feat: Ziplock">
       <created>1693226179662</created>
@@ -526,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696115676945</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="feat: Sprint 2 Final Deq">
+      <created>1696337573730</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1696337573731</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: DNR Linked List" />
     <MESSAGE value="feat: KidsWithExtraCandies slow ver" />
     <MESSAGE value="feat: CanPlantFlowersFast" />
     <MESSAGE value="feat: ReverseVowel" />
@@ -569,6 +567,7 @@
     <MESSAGE value="feat: Sprint 2 J LinkedQueue" />
     <MESSAGE value="feat: Sprint 2 J LinkedQueue- Done" />
     <MESSAGE value="feat: Sprint 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2" />
+    <MESSAGE value="feat: Sprint 2 Final Deq" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 Final Deq" />
   </component>
 </project>
