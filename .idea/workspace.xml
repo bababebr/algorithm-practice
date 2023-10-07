@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 2 Final Deq">
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: H">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/MathNotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Deq.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Deq.java" afterDir="false" />
     </list>
@@ -57,20 +58,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Deq">
-    <configuration name="Deq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.Deq" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.example.yandex.sprint2.Deq">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.Fibonacci" />
       <module name="algo" />
@@ -97,9 +85,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.yandex.sprint2.J" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.J" />
-      <module name="algo" />
+    <configuration name="MathNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.MathNotation" />
+      <module name="Easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.yandex.sprint2.Deq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.Deq" />
+      <module name="Easy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.yandex.sprint2.*" />
@@ -117,13 +120,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.org.example.yandex.sprint2.Deq" />
+      <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="Application.FibonacciLastDigits" />
+      <item itemvalue="Application.MathNotation" />
+      <item itemvalue="Java Scratch.Scratch" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Deq" />
+        <item itemvalue="Application.org.example.yandex.sprint2.Deq" />
+        <item itemvalue="Application.MathNotation" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.FibonacciLastDigits" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.org.example.yandex.sprint2.J" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +191,7 @@
       <workItem from="1696199326096" duration="593000" />
       <workItem from="1696283058494" duration="2088000" />
       <workItem from="1696323586318" duration="7884000" />
+      <workItem from="1696652867542" duration="4182000" />
     </task>
     <task id="LOCAL-00002" summary="feat: Ziplock">
       <created>1693226179662</created>

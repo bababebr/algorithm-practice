@@ -1,17 +1,33 @@
 package org.example.yandex.sprint2;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
 /*
-Взял за основу дек из теории, не знаю, правильно ли реализовал изменение указателя при pop_back и push_front.
-При этих операция, счетчик идет в обратную сторону и тоже должен быть зациклен. Решил реализовать через тернарник,
-но не уверен, что это правильное решение.
+-- ПРИНЦИП РАБОТЫ --
+Посылка - 92222484
+За основу взял Дек из теории, который был релизован за зацикленном буфере.
+Операции push_front крутят указатель head против часовой стреки, pop_front - по часовой.
+push_back двигают tail по часовой, pop_back - против.
 
-И были проблемы с TL на тестах, пришлось делать вывод через добавление StringBuilder в класс Deq. Так и читается лучше,
-и вывести ответ просто.
- */
+
+-- ДОКАЗАТЕЛЬСТВО КОРРЕКТНОСТИ --
+
+Указатель head всегда указывает самую первую не пустую ячейку, поэтому при добавлении эл-та вперед (push_front) сначала
+вычисляется индекс следующией ячейки, а уже потом в нее записывается значение.
+
+Указатель tail в свою очередь, наоборот, указывает на следующую пустую ячейку, поэтому при добавлении значения сначала
+записываем в ячейку с индексом tail значение, а уже потом вычисляем следующий индекс.
+
+-- ВРЕМЕННАЯ СЛОЖНОСТЬ --
+
+Эти имплементация Дека фиксированного размера, это позволяет выполнять все операции за O(1)
+
+-- ПРОСТРАНСТВЕННАЯ СЛОЖНОСТЬ --
+Так как мы сразу знаем размер дека, то памяти выделяется O(n)
+Так же память занимают переменные max_n, head, tail, size, но этим можно принебречь.
+В так случае сложность равно O(n).
+*/
+
 
 public class Deq {
 
@@ -21,64 +37,57 @@ public class Deq {
     private int tail;
     private int size;
 
-    private StringBuilder log;
-
     public Deq(int n) {
         queue = new Integer[n];
         max_n = n;
         head = 0;
         tail = 0;
         size = 0;
-        log = new StringBuilder();
     }
 
     public boolean isEmpty() {
         return size == 0;
     }
 
-    public void push_back(int x) {
+    public boolean push_back(int x) {
         if (size != max_n) {
             queue[tail] = x;
             tail = (tail + 1) % max_n;
             size++;
-        } else {
-            log.append("error").append(System.lineSeparator());
+            return true;
         }
+        return false;
     }
 
-    public void push_front(int x) {
+    public boolean push_front(int x) {
         if (size != max_n) {
-            head = (head - 1) % max_n < 0 ? max_n + ((head - 1) % max_n) : (head - 1) % max_n;
+            head = (head + max_n - 1) % max_n;
             queue[head] = x;
             size++;
-        } else {
-            log.append("error").append(System.lineSeparator());
+            return true;
         }
+        return false;
     }
 
     public Integer pop_front() {
         if (isEmpty()) {
-            log.append("error").append(System.lineSeparator());
             return null;
         }
         Integer x = queue[head];
         queue[head] = null;
         head = (head + 1) % max_n;
         size--;
-        log.append(x).append(System.lineSeparator());
         return x;
     }
 
     public Integer pop_back() {
         if (isEmpty()) {
-            log.append("error").append(System.lineSeparator());
             return null;
         }
-        tail = (tail - 1) % max_n < 0 ? max_n + ((tail - 1) % max_n) : (tail - 1) % max_n;
+        tail = (tail + max_n - 1) % max_n;
         Integer x = queue[tail];
         queue[tail] = null;
         size--;
-        log.append(x).append(System.lineSeparator());
         return x;
     }
 
@@ -87,10 +96,11 @@ public class Deq {
             int n = readInt(reader);
             int m = readInt(reader);
             Deq deq = new Deq(m);
+            StringBuilder sb = new StringBuilder();
             for (int i = 0; i < n; i++) {
-                readCommand(reader, deq);
+                readCommand(reader, deq, sb);
             }
-            System.out.println(deq.log.toString());
+            System.out.println(sb);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -100,26 +110,39 @@ public class Deq {
         return Integer.parseInt(reader.readLine());
     }
 
-    public static void readCommand(BufferedReader reader, Deq deq) throws IOException {
+    public static void readCommand(BufferedReader reader, Deq deq, StringBuilder sb) throws IOException {
         String command = reader.readLine();
 
         if (command.equals("pop_back")) {
-            deq.pop_back();
+            Integer result = deq.pop_back();
+            if (result == null) {
+                sb.append("error").append(System.lineSeparator());
+            } else {
+                sb.append(result).append(System.lineSeparator());
+            }
         }
 
         if (command.equals("pop_front")) {
-            deq.pop_front();
+            Integer result = deq.pop_front();
+            if (result == null) {
+                sb.append("error").append(System.lineSeparator());
+            } else {
+                sb.append(result).append(System.lineSeparator());
+            }
         }
 
         if (command.startsWith("push_back")) {
             int number = Integer.parseInt(command.split(" ")[1]);
-            deq.push_back(number);
+            if (!deq.push_back(number)) {
+                sb.append("error").append(System.lineSeparator());
+            }
         }
 
         if (command.startsWith("push_front")) {
             int number = Integer.parseInt(command.split(" ")[1]);
-            deq.push_front(number);
+            if (!deq.push_front(number)) {
+                sb.append("error").append(System.lineSeparator());
+            }
         }
     }
-
 }
