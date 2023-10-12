@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: H">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BinaryString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 3 BinarySearch">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/TwoCycles_L.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,13 +190,6 @@
       <workItem from="1696283058494" duration="2088000" />
       <workItem from="1696323586318" duration="7884000" />
       <workItem from="1696652867542" duration="4182000" />
-    </task>
-    <task id="LOCAL-00002" summary="feat: Ziplock">
-      <created>1693226179662</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1693226179662</updated>
     </task>
     <task id="LOCAL-00003" summary="feat: Ziplock">
       <created>1693232253839</created>
@@ -536,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696337573731</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="feat: Sprint 3 BinarySearch">
+      <created>1697081041472</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1697081041474</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: KidsWithExtraCandies slow ver" />
     <MESSAGE value="feat: CanPlantFlowersFast" />
     <MESSAGE value="feat: ReverseVowel" />
     <MESSAGE value="feat: ReverseWords" />
@@ -579,6 +576,7 @@
     <MESSAGE value="feat: Sprint 2 J LinkedQueue- Done" />
     <MESSAGE value="feat: Sprint 2" />
     <MESSAGE value="feat: Sprint 2 Final Deq" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 2 Final Deq" />
+    <MESSAGE value="feat: Sprint 3 BinarySearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 3 BinarySearch" />
   </component>
 </project>
