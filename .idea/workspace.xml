@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 3 BinarySearch">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/TwoCycles_L.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 3 TwoCycles_L">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/Brackets_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/Combinations_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.Brackets_A">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BinarySearch" />
       <module name="algo" />
@@ -72,6 +74,19 @@
     </configuration>
     <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BinaryString" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Brackets_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Brackets_A" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -111,27 +126,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Brackets_A" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.BinaryString" />
       <item itemvalue="Application.org.example.yandex.sprint2.Deq" />
       <item itemvalue="Application.MathNotation" />
-      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Brackets_A" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.BinaryString" />
         <item itemvalue="Application.org.example.yandex.sprint2.Deq" />
         <item itemvalue="Application.MathNotation" />
-        <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +198,7 @@
       <workItem from="1696283058494" duration="2088000" />
       <workItem from="1696323586318" duration="7884000" />
       <workItem from="1696652867542" duration="4182000" />
-    </task>
-    <task id="LOCAL-00003" summary="feat: Ziplock">
-      <created>1693232253839</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1693232253839</updated>
+      <workItem from="1697119918721" duration="2730000" />
     </task>
     <task id="LOCAL-00004" summary="feat: TwoSum">
       <created>1693238048168</created>
@@ -534,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697081041474</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="feat: Sprint 3 TwoCycles_L">
+      <created>1697081368877</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1697081368877</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: CanPlantFlowersFast" />
     <MESSAGE value="feat: ReverseVowel" />
     <MESSAGE value="feat: ReverseWords" />
     <MESSAGE value="feat: CompressedString" />
@@ -577,6 +585,7 @@
     <MESSAGE value="feat: Sprint 2" />
     <MESSAGE value="feat: Sprint 2 Final Deq" />
     <MESSAGE value="feat: Sprint 3 BinarySearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 3 BinarySearch" />
+    <MESSAGE value="feat: Sprint 3 TwoCycles_L" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 3 TwoCycles_L" />
   </component>
 </project>
