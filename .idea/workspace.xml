@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: H">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/MathNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BinaryString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Deq.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Deq.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +58,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.org.example.yandex.sprint2.Deq">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.Fibonacci" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BinarySearch" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
+          <option name="PATTERN" value="org.example.yandex.sprint3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciLastDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.FibonacciLastDigits" />
+    <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BinaryString" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
+          <option name="PATTERN" value="org.example.yandex.sprint3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +121,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.BinaryString" />
       <item itemvalue="Application.org.example.yandex.sprint2.Deq" />
-      <item itemvalue="Application.Fibonacci" />
-      <item itemvalue="Application.FibonacciLastDigits" />
       <item itemvalue="Application.MathNotation" />
       <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.BinaryString" />
         <item itemvalue="Application.org.example.yandex.sprint2.Deq" />
         <item itemvalue="Application.MathNotation" />
         <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Application.FibonacciLastDigits" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
