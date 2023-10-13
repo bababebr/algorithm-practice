@@ -5,14 +5,15 @@ import java.util.HashMap;
 public class Combinations_B {
 
 
-
-
-    public static void combination(int a, int b, HashMap<Integer, String> map) {
-        String s1 = "abc";
-        String s2 = "def";
-        if(a == 0 && a == b) {
-            return;
-        } else
+    public static String combination(int n, String[] s, String prefix) {
+        String[] s1 = {"a", "b", "c"};
+        String[] s2 = {"d", "e", "f"};
+        if (n < 0) {
+            return prefix;
+        }
+        prefix += s[n];
+        combination(n - 1, s2, prefix);
+        return combination(n-1, s1, prefix);
 
     }
 
@@ -26,6 +27,7 @@ public class Combinations_B {
         map.put(7, "pqrs");
         map.put(8, "tuv");
         map.put(9, "wxyz");
+        System.out.println(combination(2, ""));
     }
 
 }
