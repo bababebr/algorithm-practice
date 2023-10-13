@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 3 TwoCycles_L">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/Brackets_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/Combinations_B.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="fix: Sprint 2 review 1">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BracketGeneration_A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Deq.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint2/Deq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/Combinations_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/Combinations_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/TwoCycles_L.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/TwoCycles_L.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Brackets_A">
+  <component name="RunManager" selected="Application.Combinations_B">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BinarySearch" />
       <module name="algo" />
@@ -98,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint2.MathNotation" />
+    <configuration name="Combinations_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Combinations_B" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint2.*" />
+          <option name="PATTERN" value="org.example.yandex.sprint3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +129,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Combinations_B" />
       <item itemvalue="Application.Brackets_A" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.BinaryString" />
       <item itemvalue="Application.org.example.yandex.sprint2.Deq" />
-      <item itemvalue="Application.MathNotation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Combinations_B" />
         <item itemvalue="Application.Brackets_A" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.BinaryString" />
         <item itemvalue="Application.org.example.yandex.sprint2.Deq" />
-        <item itemvalue="Application.MathNotation" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +201,7 @@
       <workItem from="1696323586318" duration="7884000" />
       <workItem from="1696652867542" duration="4182000" />
       <workItem from="1697119918721" duration="2730000" />
+      <workItem from="1697178109240" duration="2550000" />
     </task>
     <task id="LOCAL-00004" summary="feat: TwoSum">
       <created>1693238048168</created>

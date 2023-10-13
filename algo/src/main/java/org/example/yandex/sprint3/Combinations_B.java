@@ -1,19 +1,20 @@
 package org.example.yandex.sprint3;
 
+import org.example.yandex.sprint1.B;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.HashMap;
 
 public class Combinations_B {
 
 
+    public static String combination(String s1, int n) {
 
-
-    public static void combination(int a, int b, HashMap<Integer, String> map) {
-        String s1 = "abc";
-        String s2 = "def";
-        if(a == 0 && a == b) {
-            return;
-        } else
-
+        if(n < = 0) {
+            return
+        }
     }
 
     public static void main(String[] args) {
@@ -26,6 +27,18 @@ public class Combinations_B {
         map.put(7, "pqrs");
         map.put(8, "tuv");
         map.put(9, "wxyz");
+
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
+            String command = reader.readLine();
+           System.out.println(combination(map.get(Character.digit(command.charAt(0), 10)), map.get(Character.digit(command.charAt(1), 10))));
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static int readInt(BufferedReader reader) throws IOException {
+        return Integer.parseInt(reader.readLine());
     }
 
 }
