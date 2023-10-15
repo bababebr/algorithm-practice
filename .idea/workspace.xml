@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Spring 3 Subsequence_C">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BubbleSort_J.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Spring 3 BiggestNumber">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BigNumber_H.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BubbleSort_J.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BubbleSort_J.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,20 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort_J">
+  <component name="RunManager" selected="Application.BigNumber_H">
+    <configuration name="BigNumber_H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BigNumber_H" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BubbleSort_J" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BubbleSort_J" />
       <module name="algo" />
@@ -73,19 +87,6 @@
     </configuration>
     <configuration name="Subsequence_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Subsequence_C" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.yandex.sprint3.Brackets_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Brackets_A" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -124,19 +125,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BigNumber_H" />
       <item itemvalue="Application.BubbleSort_J" />
       <item itemvalue="Application.Subsequence_C" />
-      <item itemvalue="Application.org.example.yandex.sprint3.Brackets_A" />
       <item itemvalue="Application.org.example.yandex.sprint3.Cobmination_B_test" />
       <item itemvalue="Application.org.example.yandex.sprint3.Combinations_B" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigNumber_H" />
         <item itemvalue="Application.BubbleSort_J" />
         <item itemvalue="Application.Subsequence_C" />
         <item itemvalue="Application.org.example.yandex.sprint3.Cobmination_B_test" />
         <item itemvalue="Application.org.example.yandex.sprint3.Combinations_B" />
-        <item itemvalue="Application.org.example.yandex.sprint3.Brackets_A" />
       </list>
     </recent_temporary>
   </component>
@@ -199,14 +200,9 @@
       <workItem from="1697161496279" duration="10000" />
       <workItem from="1697210556861" duration="1616000" />
       <workItem from="1697243024989" duration="7419000" />
-      <workItem from="1697285647349" duration="4950000" />
-    </task>
-    <task id="LOCAL-00008" summary="feat: DNR Linked List">
-      <created>1693453519602</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1693453519602</updated>
+      <workItem from="1697285647349" duration="4985000" />
+      <workItem from="1697336552748" duration="4624000" />
+      <workItem from="1697374845437" duration="2122000" />
     </task>
     <task id="LOCAL-00009" summary="feat: DNR Linked List">
       <created>1693488084927</created>
@@ -544,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697253161803</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="feat: Spring 3 BubbleSort_J">
+      <created>1697298613195</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1697298613195</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,8 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: CompressedString" />
-    <MESSAGE value="feat: isSubsequence" />
     <MESSAGE value="feat: Sprint 1 A, B, C" />
     <MESSAGE value="feat: Sprint 1 D" />
     <MESSAGE value="feat: Sprint 1 F" />
@@ -587,6 +588,8 @@
     <MESSAGE value="feat: Sprint 3 TwoCycles_L" />
     <MESSAGE value="feat: Sprint Combinations_B" />
     <MESSAGE value="feat: Spring 3 Subsequence_C" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Spring 3 Subsequence_C" />
+    <MESSAGE value="feat: Spring 3 BubbleSort_J" />
+    <MESSAGE value="feat: Spring 3 BiggestNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Spring 3 BiggestNumber" />
   </component>
 </project>

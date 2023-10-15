@@ -34,6 +34,7 @@ public class BubbleSort_J {
     }*/
 
     public static Integer[] bubbleSort_opt(Integer[] array) {
+        int sortCount = 0;
         StringBuilder sb = new StringBuilder();
         int max = array.length - 1;
         boolean check;
@@ -41,18 +42,24 @@ public class BubbleSort_J {
             check = false;
             for (int j = 0; j < max; j++) {
                 if (array[j] > array[j + 1]) {
+                    sortCount++;
                     check = true;
                     int temp = array[j + 1];
                     array[j + 1] = array[j];
                     array[j] = temp;
                 }
             }
-            sb.append(toString(array));
-            System.out.println(sb);
-            if (!check) {
+            if(sortCount == 0) {
+                sb.append(toString(array)).append(System.lineSeparator());
+                System.out.println(sb);
                 return array;
             }
-            sb = new StringBuilder();
+            if (!check) {
+                System.out.println(sb);
+                return array;
+            } else if (sortCount != 0) {
+                sb.append(toString(array)).append(System.lineSeparator());
+            }
             max--;
         }
         return array;
