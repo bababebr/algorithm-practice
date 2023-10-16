@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: sprint 3 I_Conf">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/D_cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/E_House.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/I_Conf.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/I_Conf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +57,10 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.D_cookies">
-    <configuration name="BubbleSort_J" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BubbleSort_J" />
-      <module name="algo" />
+  <component name="RunManager" selected="Application.E_House">
+    <configuration name="D_cookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.D_cookies" />
+      <module name="Easy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.yandex.sprint3.*" />
@@ -72,9 +71,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D_cookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.D_cookies" />
-      <module name="Easy" />
+    <configuration name="E_House" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.E_House" />
+      <module name="algo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.yandex.sprint3.*" />
@@ -125,7 +124,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleSort_J" />
+      <item itemvalue="Application.E_House" />
       <item itemvalue="Application.D_cookies" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.I_Conf" />
@@ -133,6 +132,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E_House" />
         <item itemvalue="Application.D_cookies" />
         <item itemvalue="Application.I_Conf" />
         <item itemvalue="Application.Wardrobe_G_countsort" />
