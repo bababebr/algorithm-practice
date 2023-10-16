@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: sprint 3 I_Conf">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/E_House.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 3 D_House">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/F_Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.E_House">
+  <component name="RunManager" selected="Application.F_Triangle">
     <configuration name="D_cookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.D_cookies" />
       <module name="Easy" />
@@ -84,9 +84,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="I_Conf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.I_Conf" />
-      <module name="Easy" />
+    <configuration name="F_Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.F_Triangle" />
+      <module name="algo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.yandex.sprint3.*" />
@@ -97,9 +97,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Solution" />
-      <module name="algo" />
+    <configuration name="I_Conf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.I_Conf" />
+      <module name="Easy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.yandex.sprint3.*" />
@@ -125,13 +125,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.E_House" />
+      <item itemvalue="Application.F_Triangle" />
       <item itemvalue="Application.D_cookies" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.I_Conf" />
       <item itemvalue="Application.Wardrobe_G_countsort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.F_Triangle" />
         <item itemvalue="Application.E_House" />
         <item itemvalue="Application.D_cookies" />
         <item itemvalue="Application.I_Conf" />
@@ -202,13 +203,6 @@
       <workItem from="1697336552748" duration="4624000" />
       <workItem from="1697374845437" duration="3617000" />
       <workItem from="1697414994568" duration="7353000" />
-    </task>
-    <task id="LOCAL-00011" summary="feat: CanPlantFlowersFast">
-      <created>1693573429462</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1693573429462</updated>
     </task>
     <task id="LOCAL-00012" summary="feat: ReverseVowel">
       <created>1693583742846</created>
@@ -546,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697440352100</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="feat: Sprint 3 D_House">
+      <created>1697463386968</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1697463386969</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Sprint 1 D" />
     <MESSAGE value="feat: Sprint 1 F" />
     <MESSAGE value="feat: Sprint 1 G" />
     <MESSAGE value="feat: Sprint 1 H" />
@@ -589,6 +589,7 @@
     <MESSAGE value="feat: Spring 3 BubbleSort_J" />
     <MESSAGE value="feat: Spring 3 BiggestNumber" />
     <MESSAGE value="feat: sprint 3 I_Conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: sprint 3 I_Conf" />
+    <MESSAGE value="feat: Sprint 3 D_House" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 3 D_House" />
   </component>
 </project>
