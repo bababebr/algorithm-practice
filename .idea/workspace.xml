@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Spring 3 BiggestNumber">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BigNumber_H.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/I_Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/Wardrobe_G_countsort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BubbleSort_J.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BubbleSort_J.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BigNumber_H.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BigNumber_H.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BigNumber_H">
+  <component name="RunManager" selected="Application.I_Conf">
     <configuration name="BigNumber_H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BigNumber_H" />
       <module name="algo" />
@@ -85,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsequence_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Subsequence_C" />
+    <configuration name="I_Conf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.I_Conf" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.yandex.sprint3.Cobmination_B_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Cobmination_B_test" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Solution" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.yandex.sprint3.Combinations_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Combinations_B" />
+    <configuration name="Wardrobe_G_countsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Wardrobe_G_countsort" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -125,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BigNumber_H" />
-      <item itemvalue="Application.BubbleSort_J" />
-      <item itemvalue="Application.Subsequence_C" />
-      <item itemvalue="Application.org.example.yandex.sprint3.Cobmination_B_test" />
-      <item itemvalue="Application.org.example.yandex.sprint3.Combinations_B" />
+      <item itemvalue="Application.org.example.yandex.sprint3.BigNumber_H" />
+      <item itemvalue="Application.org.example.yandex.sprint3.BubbleSort_J" />
+      <item itemvalue="Application.I_Conf" />
+      <item itemvalue="Application.org.example.yandex.sprint3.Solution" />
+      <item itemvalue="Application.Wardrobe_G_countsort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BigNumber_H" />
-        <item itemvalue="Application.BubbleSort_J" />
-        <item itemvalue="Application.Subsequence_C" />
-        <item itemvalue="Application.org.example.yandex.sprint3.Cobmination_B_test" />
-        <item itemvalue="Application.org.example.yandex.sprint3.Combinations_B" />
+        <item itemvalue="Application.I_Conf" />
+        <item itemvalue="Application.Wardrobe_G_countsort" />
+        <item itemvalue="Application.org.example.yandex.sprint3.Solution" />
+        <item itemvalue="Application.org.example.yandex.sprint3.BigNumber_H" />
+        <item itemvalue="Application.org.example.yandex.sprint3.BubbleSort_J" />
       </list>
     </recent_temporary>
   </component>
@@ -202,14 +204,8 @@
       <workItem from="1697243024989" duration="7419000" />
       <workItem from="1697285647349" duration="4985000" />
       <workItem from="1697336552748" duration="4624000" />
-      <workItem from="1697374845437" duration="2122000" />
-    </task>
-    <task id="LOCAL-00009" summary="feat: DNR Linked List">
-      <created>1693488084927</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1693488084927</updated>
+      <workItem from="1697374845437" duration="3617000" />
+      <workItem from="1697414994568" duration="7353000" />
     </task>
     <task id="LOCAL-00010" summary="feat: KidsWithExtraCandies slow ver">
       <created>1693493435895</created>
@@ -547,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697298613195</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="feat: Spring 3 BiggestNumber">
+      <created>1697385308747</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1697385308748</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
