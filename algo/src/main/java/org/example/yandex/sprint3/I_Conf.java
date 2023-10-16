@@ -21,7 +21,6 @@ public class I_Conf {
                 break;
             }
         }
-        System.out.println(sb);
     }
 
     static <K,V extends Comparable<? super V>>

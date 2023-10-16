@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Spring 3 BiggestNumber">
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: sprint 3 I_Conf">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/D_cookies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/I_Conf.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/I_Conf.java" afterDir="false" />
     </list>
@@ -57,9 +58,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.I_Conf">
-    <configuration name="BigNumber_H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BigNumber_H" />
+  <component name="RunManager" selected="Application.D_cookies">
+    <configuration name="BubbleSort_J" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BubbleSort_J" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -71,9 +72,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort_J" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BubbleSort_J" />
-      <module name="algo" />
+    <configuration name="D_cookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.D_cookies" />
+      <module name="Easy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.yandex.sprint3.*" />
@@ -124,14 +125,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BigNumber_H" />
       <item itemvalue="Application.BubbleSort_J" />
+      <item itemvalue="Application.D_cookies" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.I_Conf" />
       <item itemvalue="Application.Wardrobe_G_countsort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D_cookies" />
         <item itemvalue="Application.I_Conf" />
         <item itemvalue="Application.Wardrobe_G_countsort" />
       </list>
@@ -200,13 +202,6 @@
       <workItem from="1697336552748" duration="4624000" />
       <workItem from="1697374845437" duration="3617000" />
       <workItem from="1697414994568" duration="7353000" />
-    </task>
-    <task id="LOCAL-00010" summary="feat: KidsWithExtraCandies slow ver">
-      <created>1693493435895</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1693493435895</updated>
     </task>
     <task id="LOCAL-00011" summary="feat: CanPlantFlowersFast">
       <created>1693573429462</created>
@@ -544,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697385308748</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="feat: sprint 3 I_Conf">
+      <created>1697440352099</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1697440352100</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Sprint 1 A, B, C" />
     <MESSAGE value="feat: Sprint 1 D" />
     <MESSAGE value="feat: Sprint 1 F" />
     <MESSAGE value="feat: Sprint 1 G" />
@@ -587,6 +588,7 @@
     <MESSAGE value="feat: Spring 3 Subsequence_C" />
     <MESSAGE value="feat: Spring 3 BubbleSort_J" />
     <MESSAGE value="feat: Spring 3 BiggestNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Spring 3 BiggestNumber" />
+    <MESSAGE value="feat: sprint 3 I_Conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: sprint 3 I_Conf" />
   </component>
 </project>
