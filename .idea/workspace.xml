@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Spring 3 BiggestNumber">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/I_Conf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/Wardrobe_G_countsort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BigNumber_H.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BigNumber_H.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/I_Conf.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/I_Conf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
     </configuration>
     <configuration name="I_Conf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.I_Conf" />
-      <module name="algo" />
+      <module name="Easy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.yandex.sprint3.*" />
@@ -127,19 +124,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.org.example.yandex.sprint3.BigNumber_H" />
-      <item itemvalue="Application.org.example.yandex.sprint3.BubbleSort_J" />
+      <item itemvalue="Application.BigNumber_H" />
+      <item itemvalue="Application.BubbleSort_J" />
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.I_Conf" />
-      <item itemvalue="Application.org.example.yandex.sprint3.Solution" />
       <item itemvalue="Application.Wardrobe_G_countsort" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.I_Conf" />
         <item itemvalue="Application.Wardrobe_G_countsort" />
-        <item itemvalue="Application.org.example.yandex.sprint3.Solution" />
-        <item itemvalue="Application.org.example.yandex.sprint3.BigNumber_H" />
-        <item itemvalue="Application.org.example.yandex.sprint3.BubbleSort_J" />
       </list>
     </recent_temporary>
   </component>

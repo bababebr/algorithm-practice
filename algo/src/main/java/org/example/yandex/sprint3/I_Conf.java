@@ -3,27 +3,37 @@ package org.example.yandex.sprint3;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.util.*;
 
 public class I_Conf {
 
     public static void countSort(Integer[] arr, int k) {
+        TreeMap<Integer, Integer> map = new TreeMap<>();
         StringBuilder sb = new StringBuilder();
-        int[] result = new int[arr.length];
-        int max = 0;
-        for (int val : arr) {
-            result[val]++;
-            if (result[val] > max) {
-                max = result[val];
-            }
+        for(int i = 0; i < arr.length; i++) {
+            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
         }
-        for (int i = 0; i < result.length; i++) {
-            if (result[i] == max && k > 0) {
-                sb.append(i).append(" ");
+        for(Map.Entry<Integer, Integer> set : entriesSortedByValues(map)) {
+            if(k > 0) {
+                sb.append(set.getKey()).append(" ");
                 k--;
+            } else {
+                break;
             }
         }
         System.out.println(sb);
+    }
+
+    static <K,V extends Comparable<? super V>>
+    SortedSet<Map.Entry<K,V>> entriesSortedByValues(Map<K,V> map) {
+        SortedSet<Map.Entry<K,V>> sortedEntries = new TreeSet<>(
+                (e1, e2) -> {
+                    int res = e2.getValue().compareTo(e1.getValue());
+                    return res != 0 ? res : 1;
+                }
+        );
+        sortedEntries.addAll(map.entrySet());
+        return sortedEntries;
     }
 
     public static void main(String[] args) {
