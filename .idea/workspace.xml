@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 3 D_House">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/F_Triangle.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 3 F_Triangle">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BrokenArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,20 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.F_Triangle">
+  <component name="RunManager" selected="Application.BrokenArray">
+    <configuration name="BrokenArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.BrokenArray" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D_cookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.D_cookies" />
       <module name="Easy" />
@@ -97,21 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="I_Conf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.I_Conf" />
-      <module name="Easy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Wardrobe_G_countsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Wardrobe_G_countsort" />
+    <configuration name="Final_A_Broken_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.Final_A_Broken_Array" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -124,19 +124,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BrokenArray" />
+      <item itemvalue="Application.Final_A_Broken_Array" />
       <item itemvalue="Application.E_House" />
       <item itemvalue="Application.F_Triangle" />
       <item itemvalue="Application.D_cookies" />
-      <item itemvalue="Application.I_Conf" />
-      <item itemvalue="Application.Wardrobe_G_countsort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BrokenArray" />
+        <item itemvalue="Application.Final_A_Broken_Array" />
         <item itemvalue="Application.F_Triangle" />
         <item itemvalue="Application.E_House" />
         <item itemvalue="Application.D_cookies" />
-        <item itemvalue="Application.I_Conf" />
-        <item itemvalue="Application.Wardrobe_G_countsort" />
       </list>
     </recent_temporary>
   </component>
@@ -203,13 +203,10 @@
       <workItem from="1697336552748" duration="4624000" />
       <workItem from="1697374845437" duration="3617000" />
       <workItem from="1697414994568" duration="7353000" />
-    </task>
-    <task id="LOCAL-00012" summary="feat: ReverseVowel">
-      <created>1693583742846</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1693583742846</updated>
+      <workItem from="1697509875327" duration="369000" />
+      <workItem from="1697510502774" duration="2082000" />
+      <workItem from="1697512745659" duration="59000" />
+      <workItem from="1697589436063" duration="3757000" />
     </task>
     <task id="LOCAL-00013" summary="feat: ReverseWords">
       <created>1693626156616</created>
@@ -547,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697463386969</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="feat: Sprint 3 F_Triangle">
+      <created>1697466035461</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1697466035461</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Sprint 1 F" />
     <MESSAGE value="feat: Sprint 1 G" />
     <MESSAGE value="feat: Sprint 1 H" />
     <MESSAGE value="feat: Sprint 1 I" />
@@ -590,6 +593,7 @@
     <MESSAGE value="feat: Spring 3 BiggestNumber" />
     <MESSAGE value="feat: sprint 3 I_Conf" />
     <MESSAGE value="feat: Sprint 3 D_House" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 3 D_House" />
+    <MESSAGE value="feat: Sprint 3 F_Triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Sprint 3 F_Triangle" />
   </component>
 </project>
