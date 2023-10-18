@@ -8,7 +8,7 @@ public class BinarySearch {
         }
         int mid = (left + right) / 2;
         if (array[mid] == n) {
-            return n;
+            return mid;
         } else if (n > array[mid]) {
             return binarySearch(array, n, mid + 1, right);
         } else {
@@ -17,8 +17,8 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        int[] array = {0, 1, 2, 3, 4, 5, 6, 7};
-        System.out.println(binarySearch(array, 4, 0, array.length));
+        int[] arr5 = {1, 2, 3, 5, 6, 7, 9, 0};
+        System.out.println(binarySearch(arr5, 0, 7, arr5.length));
     }
 
 }
