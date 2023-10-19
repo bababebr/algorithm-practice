@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: sprint 3 I_Conf">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/FinalQuickSort.java" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 3 final A">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/FinalQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/FinalQuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -99,7 +104,7 @@
     </configuration>
     <configuration name="FinalQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.FinalQuickSort" />
-      <module name="Easy" />
+      <module name="algo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.yandex.sprint3.*" />
@@ -209,14 +214,8 @@
       <workItem from="1697589436063" duration="4463000" />
       <workItem from="1697635162471" duration="4463000" />
       <workItem from="1697641053546" duration="2283000" />
-      <workItem from="1697677368570" duration="2567000" />
-    </task>
-    <task id="LOCAL-00015" summary="feat: ReverseWords">
-      <created>1693755641238</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1693755641238</updated>
+      <workItem from="1697677368570" duration="3773000" />
+      <workItem from="1697717968010" duration="6046000" />
     </task>
     <task id="LOCAL-00016" summary="feat: ReverseWords">
       <created>1693841282920</created>
@@ -554,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697644045598</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="feat: Sprint 3 final A">
+      <created>1697686669398</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1697686669399</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -7,50 +7,54 @@ import java.util.*;
 
 public class FinalQuickSort {
 
-    public static List<Participant>[] partition(List<Participant> array, Participant pivot) {
-        List<Participant> left = new ArrayList<>();
-        List<Participant> center = new ArrayList<>();
-        List<Participant> right = new ArrayList<>();
-        for (Participant x : array) {
-            if (x.compareTo(pivot) == 1) {
-                left.add(x);
-            } else if (x.compareTo(pivot) == 0) {
-                center.add(x);
-            } else {
-                right.add(x);
+    public static Participant[] partition(Participant[] array, int left, int right, int pivot) {
+        System.out.println();
+        while (left <= right) {
+            System.out.println(left + " " + right);
+            while (array[left].compareTo(array[pivot]) == -1) {
+                left++;
+            }
+            while (array[right].compareTo(array[pivot]) == 1) {
+                right--;
+            }
+            if (left < right) {
+                swap(array, left, right);
+                left++;
+                right--;
             }
         }
-        return new List[]{left, center, right};
+        System.out.println(Arrays.toString(array));
+        return array;
     }
 
-    public static List<Participant> quicksort(List<Participant> array) {
-        if (array.size() < 2) {
-            return array; // массивы с 0 или 1 элементами фактически отсортированы
-        } else {
-            Random random = new Random();
-            Participant pivot = array.get(random.nextInt(array.size()));
-            List<Participant>[] parts = partition(array, pivot);
-            return concatenate(quicksort(parts[0]), parts[1], quicksort(parts[2]));
+    public static void quicksort(Participant[] array, int left, int right) {
+        int pivot = (left + right) / 2;
+        if (left >= right) {
+            return;
         }
+        if(right - left <= 2) {
+            return;
+        }
+        array = partition(array, left, right, pivot);
+        quicksort(array, 0, pivot);
+        quicksort(array, pivot, array.length - 1);
     }
 
-    public static List<Participant> concatenate(List<Participant> a, List<Participant> b, List<Participant> c) {
-        List<Participant> result = new ArrayList<>(a.size() + b.size() + c.size());
-        result.addAll(a);
-        result.addAll(b);
-        result.addAll(c);
-        return result;
+    public static void swap(Participant[] list, int left, int right) {
+        Participant temp = list[left];
+        list[left] = list[right];
+        list[right] = temp;
+        System.out.println(list[right] + " swapped with " + list[left]);
     }
 
     public static void main(String[] args) {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             int n = readInt(reader);
-            ArrayList<Participant> list = new ArrayList<>();
+            Participant[] list = new Participant[n];
             for (int i = 0; i < n; i++) {
                 readArray(reader, list, i);
             }
-            List<Participant> result = quicksort(list);
-            System.out.println(result);
+           quicksort(list, 0, list.length - 1);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -60,9 +64,9 @@ public class FinalQuickSort {
         return Integer.parseInt(reader.readLine());
     }
 
-    public static ArrayList readArray(BufferedReader reader, ArrayList<Participant> list, int i) throws IOException {
+    public static Participant[] readArray(BufferedReader reader, Participant[] list, int i) throws IOException {
         String[] line = reader.readLine().split(" ");
-        list.add(new Participant(line[0], Integer.parseInt(line[1]), Integer.parseInt(line[2])));
+        list[i] = new Participant(line[0], Integer.parseInt(line[1]), Integer.parseInt(line[2]));
         return list;
     }
 
