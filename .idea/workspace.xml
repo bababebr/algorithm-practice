@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: Sprint 3 final A">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/SimpleQuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BubbleSort_J.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/BubbleSort_J.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/FinalQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint3/FinalQuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,19 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="F_Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.F_Triangle" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.yandex.sprint3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FinalQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.FinalQuickSort" />
       <module name="algo" />
@@ -128,20 +117,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint3.SimpleQuickSort" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.yandex.sprint3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.SimpleQuickSort" />
       <item itemvalue="Application.FinalQuickSort" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.BrokenArray" />
       <item itemvalue="Application.Final_A_Broken_Array" />
-      <item itemvalue="Application.F_Triangle" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FinalQuickSort" />
+        <item itemvalue="Application.SimpleQuickSort" />
         <item itemvalue="Application.BrokenArray" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Final_A_Broken_Array" />
-        <item itemvalue="Application.F_Triangle" />
       </list>
     </recent_temporary>
   </component>
@@ -215,14 +217,9 @@
       <workItem from="1697635162471" duration="4463000" />
       <workItem from="1697641053546" duration="2283000" />
       <workItem from="1697677368570" duration="3773000" />
-      <workItem from="1697717968010" duration="6046000" />
-    </task>
-    <task id="LOCAL-00016" summary="feat: ReverseWords">
-      <created>1693841282920</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1693841282920</updated>
+      <workItem from="1697717968010" duration="6075000" />
+      <workItem from="1697762896632" duration="2653000" />
+      <workItem from="1697810431746" duration="3459000" />
     </task>
     <task id="LOCAL-00017" summary="feat: ReverseWords">
       <created>1693929227904</created>
@@ -560,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697686669399</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="feat: Sprint 3 final A">
+      <created>1697730834245</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1697730834246</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

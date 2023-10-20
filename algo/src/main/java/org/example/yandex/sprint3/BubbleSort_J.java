@@ -9,30 +9,6 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class BubbleSort_J {
-
-/*    public static Integer[] bubbleSort_opt2(Integer[] array) {
-        StringBuilder sb = new StringBuilder();
-        int max = array.length - 1;
-        boolean check;
-        for (int i = 0; i < array.length; i++) {
-            check = false;
-            for (int j = 0; j < max; j++) {
-                if (array[j] > array[j + 1]) {
-                    check = true;
-                    int temp = array[j + 1];
-                    array[j + 1] = array[j];
-                    array[j] = temp;
-                }
-            }
-            if (!check) return array;
-            sb.append(toString(array));
-            System.out.println(sb);
-            sb = new StringBuilder();
-            max--;
-        }
-        return array;
-    }*/
-
     public static Integer[] bubbleSort_opt(Integer[] array) {
         int sortCount = 0;
         StringBuilder sb = new StringBuilder();
@@ -49,7 +25,7 @@ public class BubbleSort_J {
                     array[j] = temp;
                 }
             }
-            if(sortCount == 0) {
+            if (sortCount == 0) {
                 sb.append(toString(array)).append(System.lineSeparator());
                 System.out.println(sb);
                 return array;

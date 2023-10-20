@@ -7,44 +7,30 @@ import java.util.*;
 
 public class FinalQuickSort {
 
-    public static Participant[] partition(Participant[] array, int left, int right, int pivot) {
-        System.out.println();
-        while (left <= right) {
-            System.out.println(left + " " + right);
-            while (array[left].compareTo(array[pivot]) == -1) {
-                left++;
-            }
-            while (array[right].compareTo(array[pivot]) == 1) {
-                right--;
-            }
-            if (left < right) {
-                swap(array, left, right);
-                left++;
-                right--;
-            }
-        }
-        System.out.println(Arrays.toString(array));
-        return array;
-    }
+    public static void quickSort(Participant[] arr, int low, int high) {
+        if (arr.length == 0 || low >= high) return;
 
-    public static void quicksort(Participant[] array, int left, int right) {
-        int pivot = (left + right) / 2;
-        if (left >= right) {
-            return;
+        int middle = low + (high - low) / 2;
+        Participant border = arr[middle];
+
+        int i = low, j = high;
+        while (i <= j) {
+            while (arr[i].compareTo(border) == 1) i++;
+            while (arr[j].compareTo(border) == -1) j--;
+            if (i <= j) {
+                swap(arr, i, j);
+                i++;
+                j--;
+            }
         }
-        if(right - left <= 2) {
-            return;
-        }
-        array = partition(array, left, right, pivot);
-        quicksort(array, 0, pivot);
-        quicksort(array, pivot, array.length - 1);
+        if (low < j) quickSort(arr, low, j);
+        if (high > i) quickSort(arr, i, high);
     }
 
     public static void swap(Participant[] list, int left, int right) {
         Participant temp = list[left];
         list[left] = list[right];
         list[right] = temp;
-        System.out.println(list[right] + " swapped with " + list[left]);
     }
 
     public static void main(String[] args) {
@@ -54,7 +40,12 @@ public class FinalQuickSort {
             for (int i = 0; i < n; i++) {
                 readArray(reader, list, i);
             }
-           quicksort(list, 0, list.length - 1);
+            quickSort(list, 0, list.length - 1);
+            StringBuilder sb = new StringBuilder();
+            for (Participant p : list) {
+                sb.append(p.name).append(System.lineSeparator());
+            }
+            System.out.println(sb);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -87,11 +78,10 @@ public class FinalQuickSort {
             if (completedTasks > participant.completedTasks) return 1;
             if (completedTasks < participant.completedTasks) return -1;
             if (penalty > participant.penalty) return -1;
-            else if (penalty < participant.penalty) {
-                return 1;
-            } else {
-                return 0;
-            }
+            if (penalty < participant.penalty) return 1;
+            if (participant.name.compareTo(name) > 0) return 1;
+            if (participant.name.compareTo(name) < 0) return -1;
+            return 0;
         }
 
         @Override
