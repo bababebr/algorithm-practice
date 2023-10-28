@@ -3,54 +3,79 @@ package org.example.yandex.sprint3;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
 
 public class FinalQuickSort {
+    /*
+-- ПРИНЦИП РАБОТЫ --
+    Посылка - 94725154
+    Метод принимает массив и указатели на левую и правую границу подмассива, далее выбираем pivot -  у меня это средний
+    элемент.
+    Начинаем идти по массиву пока не найдем два эл-та с каждой стороны от pivot`a стоящие не на своих местах,
+    когда нашли - меняем их местами.
+    После этого рекурсивно вызываем сортировку.
 
-    public static List<Participant>[] partition(List<Participant> array, Participant pivot) {
-        List<Participant> left = new ArrayList<>();
-        List<Participant> center = new ArrayList<>();
-        List<Participant> right = new ArrayList<>();
-        for (Participant x : array) {
-            if (x.compareTo(pivot) == 1) {
-                left.add(x);
-            } else if (x.compareTo(pivot) == 0) {
-                center.add(x);
-            } else {
-                right.add(x);
+    Для удобства работы написал класс Participant в котором реализовал compareTo согласно условию задачи
+
+-- ДОКАЗАТЕЛЬСТВО КОРРЕКТНОСТИ --
+
+    На каждой итерации алгоритм гарантирует, что слева находятся эл-ты меньше pivot`a, а справа - больше.
+    Так же, размер неотсортированной части массива будет сокращаться от итерации к итерации.
+    В конечном итоге длина неотсортированной части массива будет равно нулю.
+
+-- ВРЕМЕННАЯ СЛОЖНОСТЬ --
+
+Все зависиот от выбора опорного эл-та, если была бы возможность на каждом вызове сортировки выбирать опорным эл-том медиану,
+то сложность -> O(NlogN) - это лучший и средний случай. O(LogN) получается в результате рекурсивного деления массива
+на два половины, O(N) - появляется в моменте прохода по подмассиву, когда мы ищем стоящие не на своих местах эл-ты, для
+каждый итерации размер подмассива уменьшается вдвое, а суммарное кол-во подмассивов увеличивается, отсюда и O(N)
+
+Тогда, в сумме получается O(NlogN).
+
+В худшем случае, массив поделится на пустой подмассив и остальной (N-1), тогда сложность = O(n^2)
+-- ПРОСТРАНСТВЕННАЯ СЛОЖНОСТЬ --
+
+    Сортировка in-place, значит на каждом уровне рекурсии не выделяется дополнительной памяти и пространственная сложность
+    будет равно глубине рекурсии O(m);
+
+*/
+    public static void quickSort(Participant[] arr, int left, int right) {
+        if (arr.length == 0 || left >= right) return;
+        int pivotIdx = left + (right - left) / 2;
+        Participant pivot = arr[pivotIdx];
+        int i = left, j = right;
+
+        while (i <= j) {
+            while (arr[i].compareTo(pivot) > 0) i++;
+            while (arr[j].compareTo(pivot) < 0) j--;
+            if (i <= j) {
+                swap(arr, i, j);
+                i++;
+                j--;
             }
         }
-        return new List[]{left, center, right};
+        quickSort(arr, left, j);
+        if (right > i) quickSort(arr, j + 1, right);
     }
 
-    public static List<Participant> quicksort(List<Participant> array) {
-        if (array.size() < 2) {
-            return array; // массивы с 0 или 1 элементами фактически отсортированы
-        } else {
-            Random random = new Random();
-            Participant pivot = array.get(random.nextInt(array.size()));
-            List<Participant>[] parts = partition(array, pivot);
-            return concatenate(quicksort(parts[0]), parts[1], quicksort(parts[2]));
-        }
-    }
-
-    public static List<Participant> concatenate(List<Participant> a, List<Participant> b, List<Participant> c) {
-        List<Participant> result = new ArrayList<>(a.size() + b.size() + c.size());
-        result.addAll(a);
-        result.addAll(b);
-        result.addAll(c);
-        return result;
+    public static void swap(Participant[] list, int left, int right) {
+        Participant temp = list[left];
+        list[left] = list[right];
+        list[right] = temp;
     }
 
     public static void main(String[] args) {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             int n = readInt(reader);
-            ArrayList<Participant> list = new ArrayList<>();
+            Participant[] list = new Participant[n];
             for (int i = 0; i < n; i++) {
                 readArray(reader, list, i);
             }
-            List<Participant> result = quicksort(list);
-            System.out.println(result);
+            quickSort(list, 0, list.length - 1);
+            StringBuilder sb = new StringBuilder();
+            for (Participant p : list) {
+                sb.append(p.name).append(System.lineSeparator());
+            }
+            System.out.println(sb);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -60,9 +85,9 @@ public class FinalQuickSort {
         return Integer.parseInt(reader.readLine());
     }
 
-    public static ArrayList readArray(BufferedReader reader, ArrayList<Participant> list, int i) throws IOException {
+    public static Participant[] readArray(BufferedReader reader, Participant[] list, int i) throws IOException {
         String[] line = reader.readLine().split(" ");
-        list.add(new Participant(line[0], Integer.parseInt(line[1]), Integer.parseInt(line[2])));
+        list[i] = new Participant(line[0], Integer.parseInt(line[1]), Integer.parseInt(line[2]));
         return list;
     }
 
@@ -80,27 +105,13 @@ public class FinalQuickSort {
         @Override
         public int compareTo(Object o) {
             Participant participant = (Participant) o;
-            if (completedTasks > participant.completedTasks) return 1;
-            if (completedTasks < participant.completedTasks) return -1;
-            if (penalty > participant.penalty) return -1;
-            else if (penalty < participant.penalty) {
-                return 1;
-            } else {
-                return 0;
-            }
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-            Participant that = (Participant) o;
-            return completedTasks == that.completedTasks && penalty == that.penalty && Objects.equals(name, that.name);
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(name, completedTasks, penalty);
+/*            if (completedTasks > participant.completedTasks) return 1;
+            if (completedTasks < participant.completedTasks) return -1;*/
+            if (completedTasks != participant.completedTasks) return completedTasks - participant.completedTasks;
+            if (penalty != participant.penalty) return participant.penalty - penalty;
+            if (participant.name.compareTo(name) > 0) return 1;
+            if (participant.name.compareTo(name) < 0) return -1;
+            return 0;
         }
 
         @Override

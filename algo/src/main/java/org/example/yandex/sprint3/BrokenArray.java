@@ -4,7 +4,7 @@ public class BrokenArray {
 
     /*
 -- ПРИНЦИП РАБОТЫ --
-Сергей, привет!
+Иван, привет!
 Так как массив остается отсортированным, то мы можем использовать бинарный поиск, главное, найти место, куда сдвинут массив
 (индекс опорного эл-та) и определить в какой части массива, относительного опорного эл-та, находится искомое число.
 Далее, запустить бинарный поиск в этой части массива.
@@ -19,11 +19,13 @@ public class BrokenArray {
 Найти опорный эл-т - O(logN), т.к. рекусия, каждый следующий вызов функции делим массив на два части.
 Бинарный поиск так же работает за O(logN).
 
-В худшем и среднем случае получаем сложность - O(2lonN) ~ O(logN);
+В худшем и среднем случае получаем сложность - O(2logN) ~ O(logN);
 В лучшем - O(1)
+
 -- ПРОСТРАНСТВЕННАЯ СЛОЖНОСТЬ --
 
-Размер входного массива мы не учитываем, хранением единичных переменных можно пренебречь -> Сложность O(1)
+Размер входного массива мы не учитываем, хранением единичных переменных можно пренебречь, значит считаем только глубину
+рекурсии -> сложность O(m)
 
 */
 
@@ -43,17 +45,18 @@ public class BrokenArray {
     }
 
     public static int binarySearch(int[] array, int n, int left, int right) {
-        if (right <= left) { // промежуток пуст
-            return -1;
+        int idx = -1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (array[mid] < n) {
+                left = mid + 1;
+            } else if (array[mid] > n) {
+                right = mid - 1;
+            } else {
+                return mid;
+            }
         }
-        int mid = (left + right) / 2;
-        if (array[mid] == n) {
-            return mid;
-        } else if (n > array[mid]) {
-            return binarySearch(array, n, mid + 1, right);
-        } else {
-            return binarySearch(array, n, left, mid);
-        }
+        return idx;
     }
 
     public static int findPivot(int arr[], int low, int high) {
@@ -78,5 +81,12 @@ public class BrokenArray {
     private static void test() {
         int[] arr = {19, 21, 100, 101, 1, 4, 5, 7, 12};
         assert 6 == brokenSearch(arr, 5);
+    }
+
+    public static void main(String[] args) {
+        //int[] arr = {3, 5, 6, 7, 9, 1, 2};
+        //int[] arr = {19, 21, 100, 101, 1, 4, 5, 7, 12};
+        int[] arr = {1};
+        System.out.println(brokenSearch(arr, 1));
     }
 }
