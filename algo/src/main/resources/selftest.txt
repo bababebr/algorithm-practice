@@ -1,0 +1,6 @@
+5
+put 1 10
+delete 1
+put 2 20
+put 3 30
+delete 3

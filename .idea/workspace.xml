@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: sprint 3 I_Conf">
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint4/C_prefhash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint4/J_4Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint4/Sprint4Final_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint4/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cb9e5a54-2986-41fb-86d7-b637d07e19ef" name="Changes" comment="feat: sprint 4 - Final A done">
+      <change afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint4/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/resources/input_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/resources/result_18.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/main/resources/selftest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint4/A_Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/org/example/yandex/sprint4/A_Hash.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/unior1234/IdeaProjects/algorithm-practice/algo/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,6 +54,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\unior1234\IdeaProjects\algorithm-practice\algo\src\main\resources" />
       <recent name="C:\Users\bridge.VSHIPS\IdeaProjects\AlgorithmPractice\algo\src\main\java\org\example\yandex\sprint2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -67,9 +67,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sprint4Final_A">
-    <configuration name="A_Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint4.A_Hash" />
+  <component name="RunManager" selected="Application.HashTable">
+    <configuration name="C_prefhash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint4.C_prefhash" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C_prefhash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint4.C_prefhash" />
+    <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.yandex.sprint4.HashTable" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
@@ -134,19 +134,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.HashTable" />
       <item itemvalue="Application.C_prefhash" />
       <item itemvalue="Application.J_4Sum" />
       <item itemvalue="Application.Sprint4Final_A" />
       <item itemvalue="Application.test" />
-      <item itemvalue="Application.A_Hash" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashTable" />
         <item itemvalue="Application.Sprint4Final_A" />
         <item itemvalue="Application.J_4Sum" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.C_prefhash" />
-        <item itemvalue="Application.A_Hash" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +228,10 @@
       <workItem from="1698899868362" duration="11882000" />
       <workItem from="1698913778567" duration="3354000" />
       <workItem from="1698929495664" duration="2567000" />
-      <workItem from="1698992644537" duration="300000" />
+      <workItem from="1698992644537" duration="2656000" />
+      <workItem from="1699111888929" duration="4262000" />
+      <workItem from="1699260200409" duration="11229000" />
+      <workItem from="1699350556351" duration="2292000" />
     </task>
     <task id="LOCAL-00015" summary="feat: ReverseWords">
       <created>1693755641238</created>
@@ -573,7 +576,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697644045598</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Sprint 1 H" />
     <MESSAGE value="feat: Sprint 1 I" />
     <MESSAGE value="feat: Final A slow" />
     <MESSAGE value="feat: Final B" />
@@ -616,6 +618,17 @@
     <MESSAGE value="feat: Sprint 3 F_Triangle" />
     <MESSAGE value="feat: Sprint 3 final A" />
     <MESSAGE value="feat: sprint 3 I_Conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: sprint 3 I_Conf" />
+    <MESSAGE value="feat: sprint 4 - Final A done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: sprint 4 - Final A done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
